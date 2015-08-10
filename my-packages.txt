@@ -3,7 +3,7 @@ clipboard-plus
 linter
 linter-clojure
 linter-jshint
-linter-pep
+linter-pep8
 linter-pylint
 nrepl
 project-manager
