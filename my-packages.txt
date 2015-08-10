@@ -1,0 +1,10 @@
+atom-beautify
+clipboard-plus
+linter
+linter-clojure
+linter-jshint
+linter-pep
+linter-pylint
+nrepl
+project-manager
+sort-lines

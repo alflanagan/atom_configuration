@@ -1,0 +1,29 @@
+"*":
+  "exception-reporting":
+    userId: "7047eb46-5af7-e0dc-df8e-20e09dc197f9"
+  welcome:
+    showOnStartup: false
+  "one-light-ui": {}
+  core:
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+    projectHome: "/home/aflanagan/Devel"
+    disabledPackages: [
+      "go-to-line"
+    ]
+  "linter-pep8":
+    maxLineLength: 100
+  "linter-flake8":
+    maxLineLength: 100
+  "linter-pep257": {}
+  "linter-pylint":
+    rcFile: "pylintrc"
+  "atom-beautify":
+    _analyticsUserId: "0316af50-c9cd-4f92-9b83-e492e8b8649e"
+  editor:
+    invisibles: {}
+    preferredLineLength: 100
+    scrollPastEnd: true
+    tabLength: 4
