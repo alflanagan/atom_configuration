@@ -1,0 +1,116 @@
+# Emacs key bindings for Atom 0.204
+# As of initial commit, this is a straight steal from
+# https://github.com/dvorka/atom-editor-emacs-key-bindings/blob/master/keymap.cson
+# and is covered by the Apache License; see file Apache.LICENSE.
+'body':
+  # find a command (Emacs like)
+  'alt-x': 'command-palette:toggle'
+  # find opened buffer (Emacs like)
+  'ctrl-x b': 'fuzzy-finder:toggle-buffer-finder'
+  # find resource (Eclipse like)
+  'ctrl-shift-t': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-x ctrl-f': 'application:open-file'
+  'ctrl-x ctrl-n': 'application:new-file'
+  'ctrl-x ctrl-d': 'application:open-folder'
+  'ctrl-g': 'core:cancel'
+  'ctrl-x k': 'core:close'
+  'ctrl-x 3': 'pane:split-right'
+  'ctrl-x 2': 'pane:split-down'
+  'ctrl-x 0': 'pane:close'
+  'ctrl-x 1': 'pane:close-other-items'
+  'ctrl-x o': 'window:focus-next-pane'
+
+'atom-text-editor:not([mini])':
+  # navigation
+  'up': 'core:move-up'
+  'down': 'core:move-down'
+  'left': 'core:move-left'
+  'right': 'core:move-right'
+  'ctrl-a': 'editor:move-to-first-character-of-line'
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
+  'escape <': 'core:move-to-top'
+  'escape >': 'core:move-to-bottom'
+  'alt-<': 'core:move-to-top'
+  'alt->': 'core:move-to-bottom'
+  'ctrl-f': 'core:move-right'
+  'ctrl-b': 'core:move-left'
+  'ctrl-n': 'core:move-down'
+  'ctrl-p': 'core:move-up'
+  'alt-f': 'core:move-to-end-of-word'
+  'alt-b': 'core:move-to-beginning-of-word'
+  'ctrl-v': 'core:page-down'
+  'alt-v': 'core:page-up'
+  # selection
+  'ctrl-x h': 'core:select-all'
+  # editation
+  'ctrl-d': 'core:delete'
+  'ctrl-k': 'editor:cut-to-end-of-line'
+  'ctrl-x u': 'core:undo'
+  'ctrl-/': 'editor:toggle-line-comments'
+  # copy/paste
+  'ctrl-y': 'core:paste'
+  'ctrl-w': 'core:cut'
+  'alt-w': 'core:copy'
+  # search
+  #'ctrl-s': 'find-and-replace:find-next'
+  #'ctrl-r': 'find-and-replace:find-previous'
+  'ctrl-s': 'find-and-replace:show'
+  'ctrl-r': 'find-and-replace:show'
+  # file
+  'ctrl-x ctrl-s': 'core:save'
+  'ctrl-x ctrl-w': 'core:save-as'
+  'ctrl-shift-t': 'fuzzy-finder:toggle-file-finder'
+  # tab/buffers
+  'ctrl-x b': 'fuzzy-finder:toggle-buffer-finder'
+  # completion
+  'alt-/': 'autocomplete:toggle'
+  'alt-x': 'command-palette:toggle'
+  'ctrl-shift-c': 'command-palette:toggle'
+  # application
+  'ctrl-g': 'core:cancel'
+  'ctrl-x k': 'pane:close'
+  'ctrl-x ctrl-c': 'application:quit'
+  # other
+   # ctrl-t           find any file in the project
+   # ctrl-,           open settings view
+   # ctrl-tab         next tab
+   # ctrl-shift-tab   previous tab
+   # ctrl-\           left panel tree view toggle
+   # ctrl-+ ctrl--    zoom/unzoom
+
+  # NON Emacs bindings - IDE/browser like
+  'ctrl-b': 'bookmarks:toggle-bookmark'
+  'ctrl-shift-b': 'bookmarks:view-all'
+
+'.platform-linux atom-text-editor':
+  'ctrl-a': 'editor:move-to-first-character-of-line'
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
+
+'.find-and-replace':
+  'ctrl-s': 'find-and-replace:find-next'
+  'ctrl-r': 'find-and-replace:find-previous'
+
+'.go-to-line atom-text-editor[mini] input':
+  'ctrl-g': 'core:cancel'
+
+'.tree-view-dialog atom-text-editor[mini]':
+  'ctrl-g': 'core:cancel'
+
+'atom-panel.left, atom-panel.right':
+  'ctrl-g': 'tool-panel:unfocus'
+
+'.platform-win32':
+  'alt-g g': 'go-to-line:toggle'
+  'ctrl-g': 'core:cancel'
+
+'.platform-win32 .go-to-line atom-text-editor[mini] input':
+  'ctrl-g': 'core:cancel'
+
+'.platform-darwin':
+  'alt-g g': 'go-to-line:toggle'
+  'ctrl-g': 'core:cancel'
+
+'.platform-darwin .go-to-line atom-text-editor[mini] input':
+  'ctrl-g': 'core:cancel'
+
+# eof
