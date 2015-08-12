@@ -1,10 +1,17 @@
 atom-beautify
+atom-material-ui
 clipboard-plus
+file-icons
+highlight-line
 linter
 linter-clojure
 linter-jshint
 linter-pep8
 linter-pylint
+minimap
+minimap-git-diff
+minimap-linter
 nrepl
 project-manager
+script
 sort-lines

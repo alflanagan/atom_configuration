@@ -6,7 +6,7 @@
   "one-light-ui": {}
   core:
     themes: [
-      "one-light-ui"
+      "atom-material-ui"
       "one-light-syntax"
     ]
     projectHome: "/home/aflanagan/Devel"
@@ -27,4 +27,11 @@
     preferredLineLength: 100
     scrollPastEnd: true
     tabLength: 4
+    softWrap: true
+    softWrapAtPreferredLineLength: true
   "project-manager": {}
+  "file-icons": {}
+  minimap:
+    plugins:
+      "git-diff": true
+      linter: true
