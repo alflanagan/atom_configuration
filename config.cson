@@ -35,3 +35,6 @@
     plugins:
       "git-diff": true
       linter: true
+  "highlight-line":
+    enableUnderline: true
+    enableBackgroundColor: false
