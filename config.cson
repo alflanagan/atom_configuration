@@ -5,3 +5,15 @@
       linter: true
   welcome:
     showOnStartup: false
+  "exception-reporting":
+    userId: "883a98c2-d4d6-21fa-2ffa-02c51bd94e01"
+  core:
+    themes: [
+      "atom-material-ui"
+      "one-light-syntax"
+    ]
+    projectHome: "/home/aflanagan/Devel"
+  editor:
+    invisibles: {}
+    backUpBeforeSaving: true
+    preferredLineLength: 100
