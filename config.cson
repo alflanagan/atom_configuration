@@ -10,10 +10,11 @@
   core:
     themes: [
       "atom-material-ui"
-      "one-light-syntax"
+      "atom-material-syntax-light"
     ]
-    projectHome: "/home/aflanagan/Devel"
   editor:
     invisibles: {}
     backUpBeforeSaving: true
     preferredLineLength: 100
+  linter:
+    showErrorPanel: false
