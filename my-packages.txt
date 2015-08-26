@@ -1,10 +1,12 @@
 atom-beautify
+atom-macros
 atom-material-syntax-light
 atom-material-ui
 autocomplete-plus-python-jedi
 clipboard-plus
 coffee-porter
 file-icons
+flex-tool-bar
 imdone-atom
 language-javascript-semantic
 language-python-django-templates
@@ -22,4 +24,4 @@ nrepl
 project-manager
 script
 sort-lines
-turbo-javascript
+tool-bar
