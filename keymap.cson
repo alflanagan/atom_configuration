@@ -1,2 +1,7 @@
-'body':
-  'ctrl-s': 'core:save'
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
+  'ctrl-shift-e': 'find-and-replace:use-selection-as-find-pattern'  # was ctrl-e
+
+'atom-workspace atom-text-editor':
+  'ctrl-shift-a': 'core:select-all'  # was ctrl-a
+  'ctrl-a': 'editor:move-to-first-character-of-line'
