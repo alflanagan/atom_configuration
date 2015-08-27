@@ -1,0 +1,22 @@
+{
+  "name": "alflanagan-atom",
+  "version": "1.0.0",
+  "description": "A possible apm package for atom extensions/customizations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alflanagan/atom_configuration.git"
+  },
+  "author": "A. Lloyd Flanagan",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/alflanagan/atom_configuration/issues"
+  },
+  "homepage": "https://github.com/alflanagan/atom_configuration#readme",
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
