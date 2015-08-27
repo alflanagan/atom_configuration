@@ -5,3 +5,7 @@
 'atom-workspace atom-text-editor':
   'ctrl-shift-a': 'core:select-all'  # was ctrl-a
   'ctrl-a': 'editor:move-to-first-character-of-line'
+
+# great. ctrl-k is delete-to-end-of-line in emacs
+# in atom it's a prefix key, so we'd have to remap a lot of keys
+# plus there seems to be no command that acts like ctrl-k does in emacs
