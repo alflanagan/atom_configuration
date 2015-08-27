@@ -22,6 +22,7 @@ minimap-git-diff
 minimap-linter
 nrepl
 project-manager
+react
 script
 sort-lines
 tool-bar
