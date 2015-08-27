@@ -1,0 +1,17 @@
+[
+  {
+    type: "button"
+    icon: "document"
+    callback: "application:new-file"
+    tooltip: "New File"
+    iconset: "ion"
+    mode: "dev"
+  }
+  {
+    type: "button"
+    icon: "circuit-board"
+    callback: "git-diff:toggle-diff-list"
+    style:
+      color: "#FA4F28"
+  }
+]
