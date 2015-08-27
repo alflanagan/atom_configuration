@@ -18,3 +18,4 @@
     preferredLineLength: 100
   linter:
     showErrorPanel: false
+  react: {}
