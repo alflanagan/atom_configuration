@@ -1,9 +1,11 @@
 # All functions defined on "this" are available as atom commands.
 #
-# If the `toolbar` package is installed, toolbar icons are automatically generated.
+# If the `toolbar` package is installed, toolbar icons are automatically
+# generated.
 #
 # Set these properties of your function to configure the icons:
-# * icon - name of the icon (Or a method returning the icon name, possibly prepended with 'ion-' or 'fa-')
+# * icon - name of the icon (Or a method returning the icon name,
+#          possibly prepended with 'ion-' or 'fa-')
 # * title - The toolbar title (or a method returning the title)
 # * hideIcon - set to true to hide the icon from the toolbar
 #
@@ -12,18 +14,9 @@
   console.log 'Hello console'
   alert('Watch your console! (open with alt-cmd-i)')
 
-@helloConsole.icon = 'ion-clipboard' # icon from https://atom.io/packages/toolbar#supported-icon-sets
+@helloConsole.icon = 'ion-clipboard'
+# icon from https://atom.io/packages/toolbar#supported-icon-sets
 @helloConsole.title = 'Hello Console!'
-
-
-
-` // If you prefer Javascript, write it between backticks.
-this.helloFromJS = function() {
-  console.log('Hello from JS');
-  alert('Watch your console! (open with alt-cmd-i)');
-}
-this.helloFromJS.hideIcon = true; // don't show this on the toolbar
-`
 
 # Every property on "this" which is not a function triggers a separator
 @sp1 = "----------------"
@@ -45,7 +38,6 @@ this.helloFromJS.hideIcon = true; // don't show this on the toolbar
       console.log "exec error: #{error}"
 
 @runShellCommand.icon = 'fa-pied-piper-alt'
-
 
 @openBrowser = ->
   open 'https://atom.io/packages/atom-macros'
