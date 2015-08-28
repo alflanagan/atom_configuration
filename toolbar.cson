@@ -5,7 +5,23 @@
     callback: "application:new-file"
     tooltip: "New File"
     iconset: "ion"
-    mode: "dev"
+  }
+  {
+    type: "button"
+    icon: "folder"
+    iconset: "ion"
+    tooltip: "Open..."
+    callback: "application:open-file"
+  }
+  {
+    type: "separator"
+  }
+  {
+    type: "button"
+    icon: "navicon-round"
+    iconset: "ion"
+    tooltip: "Command Palette"
+    callback: "command-palette:toggle"
   }
   {
     type: "button"
@@ -13,5 +29,11 @@
     callback: "git-diff:toggle-diff-list"
     style:
       color: "#FA4F28"
+  }
+  {
+    type: "button"
+    icon: "tools"
+    tooltip: "Macros"
+    callback: "macros:edit-macros"
   }
 ]
