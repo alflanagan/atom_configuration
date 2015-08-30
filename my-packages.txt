@@ -1,6 +1,5 @@
 atom-beautify
 atom-macros
-atom-material-syntax-light
 atom-material-ui
 autocomplete-plus-python-jedi
 clipboard-plus
@@ -25,4 +24,5 @@ project-manager
 react
 script
 sort-lines
+switch-header-source
 tool-bar

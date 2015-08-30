@@ -10,7 +10,7 @@
   core:
     themes: [
       "atom-material-ui"
-      "atom-material-syntax-light"
+      "one-light-syntax"
     ]
   editor:
     invisibles: {}
@@ -19,3 +19,5 @@
   linter:
     showErrorPanel: false
   react: {}
+  "tool-bar":
+    visible: false
