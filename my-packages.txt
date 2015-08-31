@@ -1,28 +1,17 @@
 atom-beautify
 atom-macros
 atom-material-ui
-# autocomplete-plus-python-jedi
 clipboard-plus
-# coffee-porter
 file-icons
 flex-tool-bar
-# imdone-atom
 language-javascript-semantic
-# language-python-django-templates
 linter
-# linter-clojure
 linter-coffeelint
-# linter-jshint
-# linter-pep257
-# linter-pep8
 linter-pylint
 minimap
 minimap-git-diff
 minimap-linter
-# nrepl
 project-manager
-# react
 script
 sort-lines
-# switch-header-source
 tool-bar
