@@ -19,5 +19,8 @@
   linter:
     showErrorPanel: false
   react: {}
-  "tool-bar":
-    visible: false
+  "tool-bar": {}
+  "tut-ascii-art":
+    font: "Ghoulish"
+    config:
+      font: {}
