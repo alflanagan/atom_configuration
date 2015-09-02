@@ -14,7 +14,7 @@
     callback: "application:open-file"
   }
   {
-    type: "separator"
+    type: "spacer"
   }
   {
     type: "button"
@@ -35,5 +35,18 @@
     icon: "tools"
     tooltip: "Macros"
     callback: "macros:edit-macros"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "markdown"
+    tooltip: "Toggle markdown preview"
+    callback: "markdown-preview:toggle"
+  }
+  # spacer to separate 'updated toolbar' button at end
+  {
+    type: "spacer"
   }
 ]
