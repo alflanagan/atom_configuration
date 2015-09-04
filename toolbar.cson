@@ -49,4 +49,21 @@
   {
     type: "spacer"
   }
+  {
+    type: "button"
+    icon: "book"
+    iconset: "icomoon"
+    tooltip: "Save As Project"
+    callback: "project-manager:save-project"
+  }
+  {
+    type: "button"
+    icon: "books"
+    iconset: "icomoon"
+    tooltip: "Open Project"
+    callback: "project-manager:list-projects"
+  }
+  {
+    type: "spacer"
+  }
 ]
