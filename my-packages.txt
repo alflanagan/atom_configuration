@@ -4,6 +4,7 @@ atom-material-ui
 clipboard-plus
 file-icons
 flex-tool-bar
+git-projects
 language-javascript-semantic
 linter
 linter-coffeelint
@@ -14,4 +15,5 @@ minimap-linter
 project-manager
 script
 sort-lines
+term2
 tool-bar
