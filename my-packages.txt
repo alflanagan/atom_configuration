@@ -12,6 +12,7 @@ linter-pylint
 minimap
 minimap-git-diff
 minimap-linter
+preview
 project-manager
 script
 sort-lines
