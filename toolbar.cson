@@ -5,6 +5,8 @@
     callback: "application:new-file"
     tooltip: "New File"
     iconset: "ion"
+    style:
+      color: "tan"
   }
   {
     type: "button"
@@ -12,6 +14,8 @@
     iconset: "ion"
     tooltip: "Open..."
     callback: "application:open-file"
+    style:
+      color: "tan"
   }
   {
     type: "spacer"
@@ -27,6 +31,7 @@
     type: "button"
     icon: "circuit-board"
     callback: "git-diff:toggle-diff-list"
+    tooltip: "Toggle Diff List"
     style:
       color: "#FA4F28"
   }
@@ -55,6 +60,8 @@
     iconset: "icomoon"
     tooltip: "Save As Project"
     callback: "project-manager:save-project"
+    style:
+      color: "slateblue"
   }
   {
     type: "button"
@@ -62,6 +69,8 @@
     iconset: "icomoon"
     tooltip: "Open Project"
     callback: "project-manager:list-projects"
+    style:
+      color: "slateblue"
   }
   {
     type: "spacer"
