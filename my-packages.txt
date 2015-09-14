@@ -2,6 +2,7 @@ atom-beautify
 atom-macros
 atom-material-ui
 clipboard-plus
+column-select
 file-icons
 flex-tool-bar
 git-projects
@@ -15,6 +16,8 @@ minimap-linter
 preview
 project-manager
 script
+shrink-whitespace
+slickedit-select
 sort-lines
 term2
 tool-bar
