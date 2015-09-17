@@ -3,6 +3,7 @@ atom-macros
 atom-material-ui
 clipboard-plus
 column-select
+emmet
 file-icons
 flex-tool-bar
 git-projects
