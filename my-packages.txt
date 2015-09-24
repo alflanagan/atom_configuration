@@ -2,6 +2,8 @@ atom-beautify
 atom-macros
 atom-material-ui
 clipboard-plus
+code-links
+coffee-links
 column-select
 emmet
 file-icons
