@@ -1,14 +1,15 @@
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-e': 'editor:move-to-end-of-screen-line'
-  'ctrl-shift-e': 'find-and-replace:use-selection-as-find-pattern'  # was ctrl-e
+  'ctrl-shift-e': 'editor:select-to-end-of-line'
+  'alt-shift-e': 'find-and-replace:use-selection-as-find-pattern'  # was ctrl-e
 
 'atom-workspace atom-text-editor':
-  'ctrl-shift-a': 'core:select-all'  # was ctrl-a
+  'alt-shift-a': 'core:select-all'  # was ctrl-a
   'ctrl-a': 'editor:move-to-first-character-of-line'
+  'ctrl-shift-a': 'editor:select-to-first-character-of-line'
 
 # great. ctrl-k is delete-to-end-of-line in emacs
 # in atom it's a prefix key, so we'd have to remap a lot of keys
-# plus there seems to be no command that acts like ctrl-k does in emacs
 
 # deconflict flex-toolbar and term-02
 'atom-workspace':
