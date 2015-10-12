@@ -3,6 +3,7 @@ atom-macros
 atom-material-ui
 clipboard-plus
 code-links
+coffee-compile
 coffee-links
 column-select
 emmet
