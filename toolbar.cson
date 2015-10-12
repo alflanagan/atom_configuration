@@ -39,6 +39,8 @@
     type: "button"
     tooltip: "Minimap"
     callback: "minimap:toggle"
+    icon: "lightbulb"
+    iconset: "fi"
   }
   {
     type: "button"
@@ -52,6 +54,7 @@
   {
     type: "button"
     icon: "markdown"
+    hide: "!Markdown"
     tooltip: "Toggle markdown preview"
     callback: "markdown-preview:toggle"
   }
