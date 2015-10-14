@@ -81,6 +81,15 @@
       color: "slateblue"
   }
   {
+    type: "button"
+    icon: "library"
+    iconset: "icomoon"
+    tooltip: "Edit Projects"
+    callback: "project-manager:edit-projects"
+    style:
+      color: "slateblue"
+  }
+  {
     type: "spacer"
   }
 ]
