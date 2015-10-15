@@ -6,7 +6,7 @@ code-links
 coffee-compile
 coffee-links
 column-select
-emmet
+django-templates
 file-icons
 flex-tool-bar
 git-projects
