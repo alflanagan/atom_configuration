@@ -12,7 +12,7 @@
 
 @helloConsole = ->
   console.log 'Hello console'
-  alert('Watch your console! (open with alt-cmd-i)')
+  alert('Watch your console! (open with shift-ctrl-i)')
 
 @helloConsole.icon = 'ion-clipboard'
 # icon from https://atom.io/packages/toolbar#supported-icon-sets
