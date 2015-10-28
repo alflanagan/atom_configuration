@@ -20,6 +20,7 @@ linter-pylint
 minimap
 minimap-git-diff
 minimap-linter
+nuclide-installer
 preview
 project-manager
 script
