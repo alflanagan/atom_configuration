@@ -3,14 +3,14 @@ atom-macros
 atom-material-ui
 buffer-pos
 clipboard-plus
-code-links
 coffee-compile
-coffee-links
 column-select
 django-templates
 file-icons
 flex-tool-bar
 git-projects
+hyperclick
+js-hyperclick
 language-javascript-semantic
 last-cursor-position
 linter
