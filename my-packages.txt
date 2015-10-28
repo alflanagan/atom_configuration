@@ -1,6 +1,7 @@
 atom-beautify
 atom-macros
 atom-material-ui
+buffer-pos
 clipboard-plus
 code-links
 coffee-compile
@@ -11,6 +12,7 @@ file-icons
 flex-tool-bar
 git-projects
 language-javascript-semantic
+last-cursor-position
 linter
 linter-coffeelint
 linter-pylint

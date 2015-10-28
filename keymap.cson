@@ -17,3 +17,7 @@
 'atom-text-editor':
   'alt-shift-t': 'term2:open'
   'alt-shift-\\': 'editor:auto-indent'
+
+# copy current cursor byte offset to clipboard
+'atom-workspace':
+  'alt-shift-c': 'buffer-pos:get-pos'
