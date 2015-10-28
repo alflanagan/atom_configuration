@@ -6,6 +6,7 @@ clipboard-plus
 coffee-compile
 column-select
 django-templates
+editorconfig
 file-icons
 flex-tool-bar
 git-projects
