@@ -4,6 +4,7 @@ atom-material-ui
 buffer-pos
 clipboard-plus
 coffee-compile
+color-picker
 column-select
 django-templates
 editorconfig

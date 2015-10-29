@@ -21,3 +21,8 @@
 # copy current cursor byte offset to clipboard
 'atom-workspace':
   'alt-shift-c': 'buffer-pos:get-pos'
+
+# deconflict color-picker and coffee-compile
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-alt-k': 'coffee-compile:compile'  # for kompile? sigh
+  'ctrl-alt-c': 'color-picker:open'
