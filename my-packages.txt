@@ -3,17 +3,14 @@ atom-macros
 atom-material-ui
 buffer-pos
 clipboard-plus
-coffee-compile
 color-picker
 column-select
 django-templates
 editorconfig
 file-icons
 flex-tool-bar
-git-projects
 hyperclick
 js-hyperclick
-language-javascript-semantic
 last-cursor-position
 linter
 linter-coffeelint
@@ -27,5 +24,4 @@ script
 shrink-whitespace
 slickedit-select
 sort-lines
-term2
 tool-bar
