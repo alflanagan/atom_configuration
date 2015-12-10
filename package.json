@@ -16,7 +16,5 @@
     "url": "https://github.com/alflanagan/atom_configuration/issues"
   },
   "homepage": "https://github.com/alflanagan/atom_configuration#readme",
-  "dependencies": {
-    "react": "^0.13.3"
-  }
+  "dependencies": {}
 }
