@@ -9,6 +9,7 @@ django-templates
 editorconfig
 file-icons
 flex-tool-bar
+Hydrogen
 hyperclick
 js-hyperclick
 last-cursor-position
