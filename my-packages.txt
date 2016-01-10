@@ -23,6 +23,8 @@ preview
 project-manager
 script
 shrink-whitespace
+significant-other
 slickedit-select
 sort-lines
+split-diff
 tool-bar
