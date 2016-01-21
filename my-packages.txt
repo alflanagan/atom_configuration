@@ -26,6 +26,8 @@ project-manager
 script
 shell-it
 shrink-whitespace
+significant-other
 slickedit-select
 sort-lines
+split-diff
 tool-bar
