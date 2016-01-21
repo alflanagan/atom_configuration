@@ -2,6 +2,7 @@ atom-beautify
 atom-macros
 atom-material-ui
 buffer-pos
+character-table
 clipboard-plus
 color-picker
 column-select
@@ -9,6 +10,7 @@ django-templates
 editorconfig
 file-icons
 flex-tool-bar
+git-diff-details
 Hydrogen
 hyperclick
 js-hyperclick
@@ -22,6 +24,7 @@ minimap-linter
 preview
 project-manager
 script
+shell-it
 shrink-whitespace
 slickedit-select
 sort-lines
