@@ -26,3 +26,12 @@
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-alt-k': 'coffee-compile:compile'  # for kompile? sigh
   'ctrl-alt-c': 'color-picker:open'
+
+# move keyboard-macros away from ctrl-x entirely
+'atom-workspace':
+  'alt-m (': 'atom-keyboard-macros:start_kbd_macro'
+  'alt-m )': 'atom-keyboard-macros:end_kbd_macro'
+  'alt-m b': 'atom-keyboard-macros:execute_macro_to_bottom'
+  'alt-m ctrl-b': 'atom-keyboard-macros:execute_macro_from_top_to_bottom'
+  'alt-m ctrl-e': 'atom-keyboard-macros:repeat_last_kbd_macro'
+  'alt-m e': 'atom-keyboard-macros:call_last_kbd_macro'
