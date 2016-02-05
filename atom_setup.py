@@ -9,18 +9,7 @@ import argparse
 
 # a dict of packages installed because they are dependencies of a package in my-packages.txt
 # better but difficult: get deps from package.json files
-DEPENDENCIES = {"nuclide-installer":
-                ("nuclide-clang-atom", "nuclide-blame-ui", "nuclide-diagnostics-ui",
-                 "nuclide-debugger-atom", "nuclide-debugger-hhvm", "nuclide-arcanist",
-                 "nuclide-diagnostics-store", "nuclide-debugger-lldb", "nuclide-blame-provider-hg",
-                 "nuclide-diff-view", "nuclide-blame", "nuclide-code-format", "nuclide-buck-files",
-                 "nuclide-hack-symbol-provider", "nuclide-hack", "nuclide-fuzzy-filename-provider",
-                 "nuclide-file-watcher", "nuclide-test-runner", "nuclide-flow", "nuclide-toolbar",
-                 "nuclide-file-tree-deux", "nuclide-objc", "nuclide-find-references",
-                 "nuclide-open-filenames-provider", "nuclide-move-pane", "nuclide-type-hint",
-                 "nuclide-file-tree", "nuclide-ocaml", "nuclide-hg-repository",
-                 "nuclide-remote-projects", "nuclide-quick-open", "nuclide-language-hack",
-                 "nuclide-format-js", )}
+DEPENDENCIES = {}
 
 
 def get_args():
@@ -35,6 +24,7 @@ def get_args():
 
 
 def get_installed_pkgs(apm_prog):
+    """Uses `apm_prog` to get list of currently installed packages, return as a set."""
     apm_list = subprocess.Popen([apm_prog, 'list', '-ib'], stdout=subprocess.PIPE, bufsize=-1)
     results, _ = apm_list.communicate()
 
@@ -54,6 +44,7 @@ def get_installed_pkgs(apm_prog):
 
 
 def get_wanted_packages():
+    """Reads the list of desired packages from my-packages.txt file, returns a set."""
     wanted = set()
     with open('my-packages.txt', 'r') as myin:
         for line in myin:
@@ -62,6 +53,9 @@ def get_wanted_packages():
 
 
 def install_missing(apm_prog, wanted, installed):
+    """Calls `apm_prog` to install each package present in set `wanted` but not in set `installed`.
+
+    """
     to_install = wanted - installed
     if to_install:
         print("Installing {} missing packages.".format(len(to_install)))
@@ -72,6 +66,7 @@ def install_missing(apm_prog, wanted, installed):
 
 
 def report_missing_packages(wanted, installed):
+    """Lists to stdout packages in set `wanted` which are not in set `installed`."""
     missing = wanted - installed
     if missing:
         print("Expected packages not installed:")
@@ -80,6 +75,7 @@ def report_missing_packages(wanted, installed):
 
 
 def report_extra_packages(wanted, installed):
+    """Lists to stdout packages in set `installed` which are not in set `wanted`."""
     extras = installed - wanted
     if extras:
         print("\nExtra packages installed locally:")
@@ -88,6 +84,7 @@ def report_extra_packages(wanted, installed):
 
 
 def main():
+    """Driver function."""
     args = get_args()
     apm = 'apm-beta' if args.beta else 'apm'
     installed = get_installed_pkgs(apm)
