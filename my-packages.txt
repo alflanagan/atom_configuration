@@ -1,4 +1,5 @@
 atom-beautify
+atom-keyboard-macros
 atom-macros
 atom-material-ui
 buffer-pos
@@ -12,7 +13,6 @@ file-icons
 flex-tool-bar
 git-diff-details
 Hydrogen
-hyperclick
 js-hyperclick
 last-cursor-position
 linter
@@ -21,6 +21,7 @@ linter-pylint
 minimap
 minimap-git-diff
 minimap-linter
+nuclide
 preview
 project-manager
 script
