@@ -15,12 +15,8 @@ git-diff-details
 Hydrogen
 js-hyperclick
 last-cursor-position
-linter
-linter-coffeelint
-linter-pylint
 minimap
 minimap-git-diff
-minimap-linter
 nuclide
 preview
 project-manager
