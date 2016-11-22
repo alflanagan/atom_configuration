@@ -11,22 +11,6 @@
 # great. ctrl-k is delete-to-end-of-line in emacs
 # in atom it's a prefix key, so we'd have to remap a lot of keys
 
-# deconflict flex-toolbar and term-02
-'atom-workspace':
-  'ctrl-alt-t': 'tool-bar:toggle'
-'atom-text-editor':
-  'alt-shift-t': 'term2:open'
-  'alt-shift-\\': 'editor:auto-indent'
-
-# copy current cursor byte offset to clipboard
-'atom-workspace':
-  'alt-shift-c': 'buffer-pos:get-pos'
-
-# deconflict color-picker and coffee-compile
-'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-  'ctrl-alt-k': 'coffee-compile:compile'  # for kompile? sigh
-  'ctrl-alt-c': 'color-picker:open'
-
 # move keyboard-macros away from ctrl-x entirely
 'atom-workspace':
   'alt-m (': 'atom-keyboard-macros:start_kbd_macro'
