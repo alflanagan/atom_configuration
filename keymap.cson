@@ -7,6 +7,7 @@
   'alt-shift-a': 'core:select-all'  # was ctrl-a
   'ctrl-a': 'editor:move-to-first-character-of-line'
   'ctrl-shift-a': 'editor:select-to-first-character-of-line'
+  'ctrl-/': 'core:undo'
 
 # great. ctrl-k is delete-to-end-of-line in emacs
 # in atom it's a prefix key, so we'd have to remap a lot of keys
@@ -19,3 +20,11 @@
   'alt-m ctrl-b': 'atom-keyboard-macros:execute_macro_from_top_to_bottom'
   'alt-m ctrl-e': 'atom-keyboard-macros:repeat_last_kbd_macro'
   'alt-m e': 'atom-keyboard-macros:call_last_kbd_macro'
+
+# override fuzzy-finder
+'body':
+  'ctrl-p': 'core:move-up'
+
+# meanwhile emacs-plus package overrides other key for fuzzy-finder
+'platform-linux':
+  'ctrl-alt-x': 'fuzzy-finder:toggle-file-finder'
