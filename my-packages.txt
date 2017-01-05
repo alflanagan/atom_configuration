@@ -8,6 +8,7 @@ autocomplete-paths
 autocomplete-python
 clipboard-plus
 color-picker
+dalek
 disable-keybindings
 django-templates
 editorconfig
@@ -26,6 +27,7 @@ language-julia
 last-cursor-position
 latex-completions
 linter
+linter-coffeescript
 linter-eslint
 linter-less
 linter-python-pyflakes
