@@ -24,6 +24,7 @@ js-hyperclick
 julia-client
 language-forth
 language-julia
+language-mips
 last-cursor-position
 latex-completions
 linter
@@ -35,6 +36,8 @@ linter-shellcheck
 linter-xmllint
 minimap
 minimap-git-diff
+nord-atom-syntax
+nord-atom-ui
 predawn-syntax
 predawn-ui
 project-manager
