@@ -1,6 +1,5 @@
 advanced-open-file
 atom-beautify
-atom-blue-dawn
 atom-keyboard-macros
 atom-macros
 autoclose-html
@@ -9,12 +8,12 @@ autocomplete-python
 clipboard-plus
 color-picker
 dalek
+default-encoding
 disable-keybindings
 django-templates
 editorconfig
 emacs-plus
 file-icons
-flatwhite-syntax
 flex-tool-bar
 git-diff-details
 git-plus
@@ -25,6 +24,7 @@ julia-client
 language-forth
 language-julia
 language-mips
+language-powershell
 last-cursor-position
 latex-completions
 linter
@@ -36,10 +36,6 @@ linter-shellcheck
 linter-xmllint
 minimap
 minimap-git-diff
-nord-atom-syntax
-nord-atom-ui
-predawn-syntax
-predawn-ui
 project-manager
 python-snippets
 python-yapf
