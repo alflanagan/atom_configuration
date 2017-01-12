@@ -2,10 +2,12 @@ advanced-open-file
 atom-beautify
 atom-keyboard-macros
 atom-macros
+atom-ternjs
 autoclose-html
 autocomplete-paths
 autocomplete-python
 clipboard-plus
+coffee-navigator
 color-picker
 dalek
 default-encoding
@@ -36,6 +38,7 @@ linter-shellcheck
 linter-xmllint
 minimap
 minimap-git-diff
+package-cop
 project-manager
 python-snippets
 python-yapf
