@@ -21,13 +21,13 @@ $extra = $extra.ForEach( { $_.InputObject } )
 
 if ($uninstalled.Count -gt 1 -or $extra[0] -ne "") {
   Write-Host "Packages In my-packages Not Installed" -ForegroundColor Red
-  Write-Host $uninstalled
+  $uninstalled.ForEach( { Write-Host $_ })
   Write-Host "`n"
 }
 
 if ($extra.Count -gt 1 -or $extra[0] -ne "") {
   Write-Host "Packages Installed But Not in my-packages List" -ForegroundColor Red
-  Write-Host $extra
+  $extra.ForEach( { Write-Host $_ })
 }
 
 if ($args.Contains("--install")) {
