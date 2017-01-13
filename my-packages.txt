@@ -7,7 +7,6 @@ autoclose-html
 autocomplete-paths
 autocomplete-python
 clipboard-plus
-coffee-navigator
 color-picker
 dalek
 default-encoding
