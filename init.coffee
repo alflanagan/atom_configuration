@@ -7,3 +7,8 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', ->
   clipboardText = atom.clipboard.read()
 
   selection.insertText("[#{selection.getText()}](#{clipboardText})")
+
+atom.commands.add 'atom-text-editor',
+  'user:insert-date': (event) ->
+    editor = @getModel()
+    editor.insertText(new Date().toLocaleString())
