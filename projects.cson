@@ -1,0 +1,68 @@
+[
+  {
+    title: "Lloyd Flanagan Word Count"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/Devel/atom/lloyd-flanagan-word-count"
+    ]
+    devMode: true
+  }
+  {
+    title: "Atom Configuration"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/Devel/atom/atom_configuration"
+    ]
+  }
+  {
+    title: "Atom Utl"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/Devel/atom/atom-language-utl"
+    ]
+    devMode: true
+  }
+  {
+    title: "Language Mips"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/Devel/atom/language-mips"
+    ]
+    devMode: true
+  }
+  {
+    title: "My Website"
+    group: "Web"
+    paths: [
+      "/home/aflanagan/Devel/adrian-l-flanagan"
+    ]
+  }
+  {
+    title: "Css Compare"
+    group: "Python"
+    paths: [
+      "/home/aflanagan/Devel/css_compare"
+    ]
+  }
+  {
+    title: "Node Find"
+    group: "Node"
+    paths: [
+      "/home/aflanagan/Devel/node/node_find"
+    ]
+  }
+  {
+    title: "Bookmark Server"
+    group: "Web"
+    paths: [
+      "/home/aflanagan/Devel/node/bkmk_server"
+    ]
+  }
+  {
+    title: "Utl Indexer"
+    group: "BHMG"
+    paths: [
+      "/home/aflanagan/Devel/utl_indexer"
+    ]
+  }
+]
