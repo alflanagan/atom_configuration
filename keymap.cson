@@ -2,6 +2,9 @@
   'ctrl-e': 'editor:move-to-end-of-screen-line'
   'ctrl-shift-e': 'editor:select-to-end-of-line'
   'alt-shift-e': 'find-and-replace:use-selection-as-find-pattern'  # was ctrl-e
+# emacs-plus redefines ctrl-d but doesn't override find-and-replace:select-next
+# for these platforms
+  'ctrl-d': 'core:delete'
 
 'atom-workspace atom-text-editor':
   'alt-shift-a': 'core:select-all'  # was ctrl-a
