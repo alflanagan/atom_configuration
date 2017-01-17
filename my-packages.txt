@@ -1,6 +1,7 @@
 advanced-open-file
 atom-beautify
 atom-keyboard-macros
+atom-live-grammar-reload
 atom-macros
 atom-ternjs
 autoclose-html
@@ -18,6 +19,7 @@ file-icons
 flex-tool-bar
 git-diff-details
 git-plus
+grammar-mode
 Hydrogen
 ink
 js-hyperclick
@@ -35,6 +37,7 @@ linter-less
 linter-python-pyflakes
 linter-shellcheck
 linter-xmllint
+MagicPython
 minimap
 minimap-git-diff
 package-cop
