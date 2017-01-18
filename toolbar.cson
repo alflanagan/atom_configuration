@@ -92,4 +92,47 @@
   {
     type: "spacer"
   }
+  {
+    type: "button"
+    icon: "play2"
+    iconset: "icomoon"
+    tooltip: "Run Script"
+    callback: "script:run"
+    style:
+      color: "#00aacc"
+  }
+  {
+    type: "button"
+    icon: "playback-fast-forward"
+    tooltip: "Run Script With Profile"
+    callback: "script:run-with-profile"
+    style:
+      color: "#00aacc"
+  }
+  {
+    type: "button"
+    icon: "playback-play"
+    tooltip: "Run Script With Options"
+    callback: "script:run-options"
+    style:
+      color: "#00AACC"
+  }
+  {
+    type: "button"
+    icon: "copy"
+    iconset: "fa"
+    tooltip: "Copy Results"
+    callback: "script:copy-script-results"
+    style:
+      color: "#00AACC"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "spacer"
+  }
 ]
