@@ -6,6 +6,15 @@
 # for these platforms
   'ctrl-d': 'core:delete'
 
+'.platform-darwin atom-text-editor:not([mini])':
+  'cmd-shift-v': 'clipboard-plus:toggle'
+
+'.platform-win32 atom-text-editor:not([mini])':
+  'ctrl-shift-v': 'clipboard-plus:toggle'
+
+'.platform-linux atom-text-editor:not([mini])':
+  'ctrl-shift-v': 'clipboard-plus:toggle'
+
 'atom-workspace atom-text-editor':
   'alt-shift-a': 'core:select-all'  # was ctrl-a
   'ctrl-a': 'editor:move-to-first-character-of-line'
