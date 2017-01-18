@@ -1,0 +1,26 @@
+"*":
+  "atom-ternjs":
+    inlineFnCompletionDocumentation: true
+  core:
+    projectHome: "/home/aflanagan/Devel/atom"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-light-ui"
+      "atom-light-syntax"
+    ]
+  editor:
+    preferredLineLength: 100
+  "tool-bar":
+    position: "Top"
+  "linter-shellcheck":
+    enableNotice: true
+  "terminal-plus":
+    core:
+      scrollback: 9999
+    toggles:
+      autoClose: true
+      runInsertedText: false
+  "tool-bar":
+    fullWidth: false
+    iconSize: "16px"
+    position: "Top"
