@@ -10,8 +10,6 @@
     ]
   editor:
     preferredLineLength: 100
-  "tool-bar":
-    position: "Top"
   "linter-shellcheck":
     enableNotice: true
   "terminal-plus":
