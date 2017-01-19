@@ -9,6 +9,7 @@ autocomplete-paths
 autocomplete-python
 clipboard-plus
 color-picker
+custom-folds
 dalek
 default-encoding
 disable-keybindings
