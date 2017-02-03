@@ -1,0 +1,89 @@
+[
+  {
+    title: "LF Word Count"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/Devel/atom/lloyd-flanagan-word-count"
+    ]
+    icon: "atom-icon"
+  }
+  {
+    title: "Atom Configuration"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/Devel/atom/atom_configuration"
+    ]
+    icon: "icon-gear"
+  }
+  {
+    title: "Atom"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/github/atom"
+    ]
+    icon: "atom-icon"
+  }
+  {
+    title: "Svgmaps"
+    group: "BHMedia"
+    paths: [
+      "/home/aflanagan/Devel/svgmaps"
+    ]
+    icon: "icon-tools"
+  }
+  {
+    title: "Atom Language Utl"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/Devel/atom/atom-language-utl"
+    ]
+    icon: "atom-icon"
+  }
+  {
+    title: "Utl Indexer"
+    group: "BLOX"
+    paths: [
+      "/home/aflanagan/Devel/utl_indexer"
+    ]
+    icon: "fa-server"
+  }
+  {
+    title: "Townnews Reader"
+    group: "BLOX"
+    paths: [
+      "/home/aflanagan/Devel/townnews_reader"
+    ]
+    icon: "fa-server"
+  }
+  {
+    title: "Encoding Selector"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/Devel/atom/encoding-selector"
+    ]
+    icon: "icon-issue-opened"
+  }
+  {
+    title: "Styleguide"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/Devel/atom/styleguide"
+    ]
+    icon: "atom-icon"
+  }
+  {
+    title: "Shared Libraries"
+    group: "BH Media"
+    paths: [
+      "/home/aflanagan/Devel/shared_libraries"
+    ]
+    icon: "fa-server"
+  }
+  {
+    title: "Utl Lookup"
+    group: "BLOX"
+    paths: [
+      "/home/aflanagan/Devel/utl_lookup"
+    ]
+  }
+]
