@@ -28,6 +28,7 @@ language-forth
 language-julia
 language-mips
 language-powershell
+language-svg
 last-cursor-position
 latex-completions
 linter
@@ -45,11 +46,13 @@ project-manager
 python-snippets
 python-yapf
 script
+shell-it
 shrink-whitespace
 significant-other
 slickedit-select
 sort-lines
 split-diff
+svg-preview
 terminal-plus
 tool-bar
 uber-juno
