@@ -2,7 +2,6 @@ advanced-open-file
 atom-beautify
 atom-keyboard-macros
 atom-live-grammar-reload
-atom-macros
 atom-ternjs
 autoclose-html
 autocomplete-paths
