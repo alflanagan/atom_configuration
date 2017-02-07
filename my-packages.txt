@@ -15,6 +15,7 @@ disable-keybindings
 django-templates
 editorconfig
 emacs-plus
+export-html
 file-icons
 flex-tool-bar
 git-diff-details
