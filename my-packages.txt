@@ -9,7 +9,6 @@ autocomplete-python
 clipboard-plus
 color-picker
 custom-folds
-dalek
 default-encoding
 disable-keybindings
 django-templates
@@ -35,9 +34,11 @@ latex-completions
 linter
 linter-coffeescript
 linter-eslint
+linter-gcc
 linter-less
 linter-python-pyflakes
 linter-shellcheck
+linter-tidy
 linter-xmllint
 MagicPython
 minimap
