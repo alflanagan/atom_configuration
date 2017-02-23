@@ -86,4 +86,35 @@
       "/home/aflanagan/Devel/utl_lookup"
     ]
   }
+  {
+    title: "Bootstrap 3 3 6"
+    group: "Frameworks"
+    paths: [
+      "/home/aflanagan/src/bootstrap/bootstrap-3.3.6"
+    ]
+  }
+  {
+    title: "Gmail Intfc"
+    group: "Mail"
+    paths: [
+      "/home/aflanagan/Devel/personal/mail-electron-intfc"
+    ]
+    icon: "icon-mail-read"
+  }
+  {
+    title: "Gmail Web Svcs"
+    group: "Mail"
+    paths: [
+      "/home/aflanagan/Devel/personal/mail-web-srvcs"
+    ]
+    icon: "icon-mail-read"
+  }
+  {
+    title: "Badge2017"
+    group: "HackRVA"
+    paths: [
+      "/home/aflanagan/Devel/personal/hackrva/Harmony-Badge-2017/firmware"
+    ]
+    icon: "icon-circuit-board"
+  }
 ]
