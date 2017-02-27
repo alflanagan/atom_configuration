@@ -13,7 +13,7 @@
     paths: [
       "/home/aflanagan/Devel/atom/atom_configuration"
     ]
-    icon: "icon-gear"
+    icon: "atom-icon"
   }
   {
     title: "Atom"
@@ -45,7 +45,7 @@
     paths: [
       "/home/aflanagan/Devel/utl_indexer"
     ]
-    icon: "fa-server"
+    icon: "fa fa-server"
   }
   {
     title: "Townnews Reader"
@@ -53,23 +53,7 @@
     paths: [
       "/home/aflanagan/Devel/townnews_reader"
     ]
-    icon: "fa-server"
-  }
-  {
-    title: "Encoding Selector"
-    group: "Atom"
-    paths: [
-      "/home/aflanagan/Devel/atom/encoding-selector"
-    ]
-    icon: "icon-issue-opened"
-  }
-  {
-    title: "Styleguide"
-    group: "Atom"
-    paths: [
-      "/home/aflanagan/Devel/atom/styleguide"
-    ]
-    icon: "atom-icon"
+    icon: "fa fa-server"
   }
   {
     title: "Shared Libraries"
@@ -77,7 +61,7 @@
     paths: [
       "/home/aflanagan/Devel/shared_libraries"
     ]
-    icon: "fa-server"
+    icon: "fa fa-server"
   }
   {
     title: "Utl Lookup"
@@ -92,6 +76,7 @@
     paths: [
       "/home/aflanagan/src/bootstrap/bootstrap-3.3.6"
     ]
+    icon: "fa fa-bold"
   }
   {
     title: "Gmail Intfc"
@@ -100,6 +85,14 @@
       "/home/aflanagan/Devel/personal/mail-electron-intfc"
     ]
     icon: "icon-mail-read"
+  }
+  {
+    title: "Hacker Web"
+    group: "HackRVA"
+    paths: [
+      "/home/aflanagan/Devel/personal/hackrva/hacker-web"
+    ]
+    icon: "ion-social-html5"
   }
   {
     title: "Gmail Web Svcs"
