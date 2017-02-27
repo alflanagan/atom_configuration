@@ -38,7 +38,7 @@ linter-eslint
 linter-gcc
 linter-jsonlint
 linter-less
-linter-python-pyflakes
+linter-pylint
 linter-shellcheck
 linter-tidy
 linter-xmllint
