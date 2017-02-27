@@ -3,15 +3,33 @@
     title: "Badge 2017"
     group: "HackRVA"
     paths: [
-      "/home/aflanagan/Devel/hackrva/harmony/projects/harmony_badge_2017/firmware"
+      "/home/aflanagan/Devel/hackrva/Harmony-Badge-2017/firmware"
     ]
+    icon: "icon-circuit-board"
   }
   {
-    title: "Lloyd Flanagan Word Count"
+    title: "Hacker Web"
+    group: "HackRVA"
+    paths: [
+      "/home/aflanagan/Devel/hackrva/hacker-web"
+    ]
+    icon: "ion-social-html5"
+  }
+  {
+    title: "PyBadge"
+    group: "HackRVA"
+    paths: [
+      "/home/aflanagan/Devel/hackrva/PyBadge"
+    ]
+    icon: "icon-circuit-board"
+  }
+  {
+    title: "LF Word Count"
     group: "Atom"
     paths: [
       "/home/aflanagan/Devel/atom/lloyd-flanagan-word-count"
     ]
+    icon: "atom-icon"
   }
   {
     title: "Atom Configuration"
@@ -19,6 +37,7 @@
     paths: [
       "/home/aflanagan/Devel/atom/atom_configuration"
     ]
+    icon: "atom-icon"
   }
   {
     title: "Atom Utl"
@@ -26,6 +45,7 @@
     paths: [
       "/home/aflanagan/Devel/atom/atom-language-utl"
     ]
+    icon: "atom-icon"
   }
   {
     title: "Language Mips"
@@ -33,6 +53,7 @@
     paths: [
       "/home/aflanagan/Devel/atom/language-mips"
     ]
+    icon: "atom-icon"
   }
   {
     title: "My Website"
@@ -40,6 +61,7 @@
     paths: [
       "/home/aflanagan/Devel/adrian-l-flanagan"
     ]
+    icon: "fa-html5"
   }
   {
     title: "Css Compare"
@@ -47,6 +69,7 @@
     paths: [
       "/home/aflanagan/Devel/css_compare"
     ]
+    icon: "devicon-css3-plain"
   }
   {
     title: "Node Find"
@@ -54,6 +77,7 @@
     paths: [
       "/home/aflanagan/Devel/node/node_find"
     ]
+    icon: "icon-search"
   }
   {
     title: "Bookmark Server"
@@ -61,6 +85,7 @@
     paths: [
       "/home/aflanagan/Devel/node/bkmk_server"
     ]
+    icon: "fa-bookmark"
   }
   {
     title: "Utl Indexer"
@@ -68,5 +93,22 @@
     paths: [
       "/home/aflanagan/Devel/utl_indexer"
     ]
+    icon: "fa-server"
+  }
+  {
+    title: "Gmail Intfc"
+    group: "Mail"
+    paths: [
+      "/home/aflanagan/Devel/gmail/mail-electron-intfc"
+    ]
+    icon: "icon-mail-read"
+  }
+  {
+    title: "Gmail Web Svcs"
+    group: "Mail"
+    paths: [
+      "/home/aflanagan/Devel/gmail/mail-web-srvcs"
+    ]
+    icon: "icon-mail-read"
   }
 ]
