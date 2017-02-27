@@ -25,6 +25,7 @@ js-hyperclick
 julia-client
 language-forth
 language-julia
+language-markdown
 language-mips
 language-powershell
 language-svg
@@ -34,6 +35,7 @@ linter
 linter-coffeescript
 linter-eslint
 linter-gcc
+linter-jsonlint
 linter-less
 linter-python-pyflakes
 linter-shellcheck
