@@ -3,7 +3,7 @@
     title: "LF Word Count"
     group: "Atom"
     paths: [
-      "/home/aflanagan/Devel/atom/lloyd-flanagan-word-count"
+      "~/Devel/atom/lloyd-flanagan-word-count"
     ]
     icon: "atom-icon"
   }
@@ -11,7 +11,7 @@
     title: "Atom Configuration"
     group: "Atom"
     paths: [
-      "/home/aflanagan/Devel/atom/atom_configuration"
+      "~/Devel/atom/atom_configuration"
     ]
     icon: "atom-icon"
   }
@@ -19,7 +19,7 @@
     title: "Atom"
     group: "Atom"
     paths: [
-      "/home/aflanagan/github/atom"
+      "~/github/atom"
     ]
     icon: "atom-icon"
   }
@@ -27,7 +27,7 @@
     title: "Svgmaps"
     group: "BHMedia"
     paths: [
-      "/home/aflanagan/Devel/svgmaps"
+      "~/Devel/svgmaps"
     ]
     icon: "icon-tools"
   }
@@ -35,7 +35,7 @@
     title: "Atom Language Utl"
     group: "Atom"
     paths: [
-      "/home/aflanagan/Devel/atom/atom-language-utl"
+      "~/Devel/atom/atom-language-utl"
     ]
     icon: "atom-icon"
   }
@@ -43,7 +43,7 @@
     title: "Utl Indexer"
     group: "BLOX"
     paths: [
-      "/home/aflanagan/Devel/utl_indexer"
+      "~/Devel/utl_indexer"
     ]
     icon: "fa fa-server"
   }
@@ -51,7 +51,7 @@
     title: "Townnews Reader"
     group: "BLOX"
     paths: [
-      "/home/aflanagan/Devel/townnews_reader"
+      "~/Devel/townnews_reader"
     ]
     icon: "fa fa-server"
   }
@@ -59,7 +59,7 @@
     title: "Shared Libraries"
     group: "BH Media"
     paths: [
-      "/home/aflanagan/Devel/shared_libraries"
+      "~/Devel/shared_libraries"
     ]
     icon: "fa fa-server"
   }
@@ -67,14 +67,14 @@
     title: "Utl Lookup"
     group: "BLOX"
     paths: [
-      "/home/aflanagan/Devel/utl_lookup"
+      "~/Devel/utl_lookup"
     ]
   }
   {
     title: "Bootstrap 3 3 6"
     group: "Frameworks"
     paths: [
-      "/home/aflanagan/src/bootstrap/bootstrap-3.3.6"
+      "~/src/bootstrap/bootstrap-3.3.6"
     ]
     icon: "fa fa-bold"
   }
@@ -82,7 +82,7 @@
     title: "Gmail Intfc"
     group: "Mail"
     paths: [
-      "/home/aflanagan/Devel/personal/mail-electron-intfc"
+      "~/Devel/personal/mail-electron-intfc"
     ]
     icon: "icon-mail-read"
   }
@@ -90,7 +90,7 @@
     title: "Hacker Web"
     group: "HackRVA"
     paths: [
-      "/home/aflanagan/Devel/personal/hackrva/hacker-web"
+      "~/Devel/personal/hackrva/hacker-web"
     ]
     icon: "ion-social-html5"
   }
@@ -98,7 +98,7 @@
     title: "Gmail Web Svcs"
     group: "Mail"
     paths: [
-      "/home/aflanagan/Devel/personal/mail-web-srvcs"
+      "~/Devel/personal/mail-web-srvcs"
     ]
     icon: "icon-mail-read"
   }
@@ -106,8 +106,26 @@
     title: "Badge2017"
     group: "HackRVA"
     paths: [
-      "/home/aflanagan/Devel/personal/hackrva/Harmony-Badge-2017/firmware"
+      "~/Devel/personal/hackrva/Harmony-Badge-2017/firmware"
     ]
     icon: "icon-circuit-board"
+  }
+  {
+    title: "The Jobs Network Widgets"
+    group: "BH Media"
+    paths: [
+      "~/Devel/richmond.com/jobs.thejobnetwork.com"
+    ]
+    icon: "icon-package"
+  }
+  {
+    title: "Javascript Symbol Ref"
+    group: "Atom"
+    paths: [
+      "~/Devel/atom/javascript-symbol-ref"
+      "~/Devel/atom/atom/src"
+    ]
+    icon: "devicon-javascript-plain"
+    devMode: true
   }
 ]
