@@ -10,10 +10,19 @@
   }
   {
     type: "button"
+    icon: "document-text"
+    iconset: "ion"
+    tooltip: "Open File"
+    callback: "application:open-file"
+    style:
+      color: "teal"
+  }
+  {
+    type: "button"
     icon: "folder"
     iconset: "ion"
-    tooltip: "Open..."
-    callback: "application:open-file"
+    tooltip: "Open Folder"
+    callback: "application:open-folder"
     style:
       color: "teal"
   }
