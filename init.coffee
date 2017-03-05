@@ -10,5 +10,5 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', ->
 
 atom.commands.add 'atom-text-editor',
   'user:insert-date': (event) ->
-    editor = @getModel()
+    return unless editor = @getModel()
     editor.insertText(new Date().toLocaleString())
