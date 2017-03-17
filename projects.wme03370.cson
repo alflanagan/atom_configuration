@@ -25,7 +25,7 @@
   }
   {
     title: "Svgmaps"
-    group: "BHMedia"
+    group: "BH Media"
     paths: [
       "~/Devel/svgmaps"
     ]
@@ -127,5 +127,14 @@
     ]
     icon: "devicon-javascript-plain"
     devMode: true
+  }
+  {
+    title: "Symbol Quick Pane"
+    group: "Atom"
+    paths: [
+      "~/Devel/atom/symbol-quick-pane"
+      "~/Devel/atom/atom/src"
+    ]
+    icon: "atom-icon"
   }
 ]
