@@ -20,11 +20,10 @@ git-diff-details
 git-plus
 grammar-mode
 Hydrogen
-ink
 js-hyperclick
-julia-client
+language-babel
 language-forth
-language-julia
+language-javascript-jsx
 language-markdown
 language-mips
 language-powershell
@@ -45,6 +44,7 @@ MagicPython
 minimap
 minimap-git-diff
 package-cop
+path-hyperclick
 project-manager
 python-snippets
 python-yapf
@@ -56,4 +56,3 @@ split-diff
 svg-preview
 terminal-plus
 tool-bar
-uber-juno
