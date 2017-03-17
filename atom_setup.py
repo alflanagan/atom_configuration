@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # vim: sw=4:ts=4:expandtab
-"""A script to get the list of installed atom packages, match it to the list of
-expected packages, and install any that are missing."""
+"""Compare installed Atom packages to a list of expected packages.
+
+Optionally installs missing packages.
+"""
 
 import subprocess
 import argparse
@@ -9,11 +11,12 @@ import argparse
 
 # a dict of packages installed because they are dependencies of a package in my-packages.txt
 # better but difficult: get deps from package.json files
-DEPENDENCIES = {}
+DEPENDENCIES = {"linter": {"linter-ui-default"},
+                "linter-ui-default": {"intentions", "busy-signal"}}
 
 
 def get_args():
-    """Parses command-line arguments, returns namespace with values."""
+    """Parse command-line arguments, return namespace with values."""
     parser = argparse.ArgumentParser(
         description="Report or install apm packages according to my-packages.txt")
     parser.add_argument('--install', action='store_true',
@@ -24,7 +27,7 @@ def get_args():
 
 
 def get_installed_pkgs(apm_prog):
-    """Uses `apm_prog` to get list of currently installed packages, return as a set."""
+    """Use `apm_prog` to get list of currently installed packages, return as a set."""
     apm_list = subprocess.Popen([apm_prog, 'list', '-ib'], stdout=subprocess.PIPE, bufsize=-1)
     results, _ = apm_list.communicate()
 
@@ -44,7 +47,7 @@ def get_installed_pkgs(apm_prog):
 
 
 def get_wanted_packages():
-    """Reads the list of desired packages from my-packages.txt file, returns a set."""
+    """Read the list of desired packages from my-packages.txt file, return a set."""
     wanted = set()
     with open('my-packages.txt', 'r') as myin:
         for line in myin:
@@ -53,9 +56,7 @@ def get_wanted_packages():
 
 
 def install_missing(apm_prog, wanted, installed):
-    """Calls `apm_prog` to install each package present in set `wanted` but not in set `installed`.
-
-    """
+    """Install each package present in set `wanted` but not in set `installed`."""
     to_install = wanted - installed
     if to_install:
         print("Installing {} missing packages.".format(len(to_install)))
@@ -66,7 +67,7 @@ def install_missing(apm_prog, wanted, installed):
 
 
 def report_missing_packages(wanted, installed):
-    """Lists to stdout packages in set `wanted` which are not in set `installed`."""
+    """List to stdout packages in set `wanted` which are not in set `installed`."""
     missing = wanted - installed
     if missing:
         print("Expected packages not installed:")
@@ -75,7 +76,7 @@ def report_missing_packages(wanted, installed):
 
 
 def report_extra_packages(wanted, installed):
-    """Lists to stdout packages in set `installed` which are not in set `wanted`."""
+    """List to stdout packages in set `installed` which are not in set `wanted`."""
     extras = installed - wanted
     if extras:
         print("\nExtra packages installed locally:")
