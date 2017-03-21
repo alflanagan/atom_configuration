@@ -5,10 +5,18 @@ if ($env:OS -Like "Windows*")
 {
     $pkg_list = "my-windows-packages.txt"
 }
-$fred = (Get-Content $pkg_list)
+
+$betty = New-Object System.Collections.Generic.List[System.Object] 
+(Get-Content $pkg_list).ForEach( { $betty.Add($_) } )
+# add auto-installed dependent pkgs
+# this may become untenable if more pkgs do that!
+$betty.Add("busy-signal")
+$betty.Add("intentions")
+$betty.Add("linter-ui-default")
+
 $wilma = apm list --no-color --bare --installed
 $installed = $wilma.ForEach( { $_.split('@')[0] } )
-$differences = Compare-Object -ReferenceObject $installed -DifferenceObject $fred
+$differences = Compare-Object -ReferenceObject $installed -DifferenceObject $betty
 
 # Compare-Object returns PSCustomObject if collections are equal (???)
 # but is schizo about type of return array
