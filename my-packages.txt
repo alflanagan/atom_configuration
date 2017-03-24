@@ -1,5 +1,6 @@
 advanced-open-file
 atom-beautify
+atom-html-preview
 atom-keyboard-macros
 atom-live-grammar-reload
 atom-ternjs
@@ -10,6 +11,7 @@ autocomplete-python
 clipboard-plus
 color-picker
 custom-folds
+dalek
 default-encoding
 disable-keybindings
 django-templates
@@ -52,6 +54,7 @@ linter-xmllint
 MagicPython
 minimap
 minimap-git-diff
+open-html-in-browser
 package-cop
 path-hyperclick
 project-manager
