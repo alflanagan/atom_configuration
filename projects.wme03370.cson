@@ -119,22 +119,19 @@
     icon: "icon-package"
   }
   {
-    title: "Javascript Symbol Ref"
-    group: "Atom"
-    paths: [
-      "~/Devel/atom/javascript-symbol-ref"
-      "~/Devel/atom/atom/src"
-    ]
-    icon: "devicon-javascript-plain"
-    devMode: true
-  }
-  {
     title: "Symbol Quick Pane"
     group: "Atom"
     paths: [
-      "~/Devel/atom/symbol-quick-pane"
+      "~/Devel/atom/atom-symbol-quick-pane"
       "~/Devel/atom/atom/src"
     ]
     icon: "atom-icon"
+  }
+  {
+    title: "Site Setup"
+    group: "BH Media"
+    paths: [
+      "/home/aflanagan/Devel/site_setup"
+    ]
   }
 ]
