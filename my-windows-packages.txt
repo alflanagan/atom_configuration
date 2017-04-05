@@ -10,7 +10,6 @@ autocomplete-python
 clipboard-plus
 color-picker
 custom-folds
-dalek
 disable-keybindings
 django-templates
 editorconfig

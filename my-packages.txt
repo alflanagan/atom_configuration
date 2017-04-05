@@ -11,7 +11,6 @@ autocomplete-python
 clipboard-plus
 color-picker
 custom-folds
-dalek
 default-encoding
 disable-keybindings
 django-templates
@@ -63,7 +62,6 @@ python-yapf
 script
 shell-it
 shrink-whitespace
-significant-other
 slickedit-select
 sort-lines
 split-diff
