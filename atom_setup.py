@@ -39,9 +39,8 @@ def get_installed_pkgs(apm_prog):
 
     # remove dependencies from list
     for key in DEPENDENCIES:
-        if key in installed:
-            for pkg in DEPENDENCIES[key]:
-                installed.discard(pkg)
+        for pkg in DEPENDENCIES[key]:
+            installed.discard(pkg)
 
     return installed
 
