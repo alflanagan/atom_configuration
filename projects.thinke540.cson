@@ -4,6 +4,7 @@
     group: "HackRVA"
     paths: [
       "/home/aflanagan/Devel/hackrva/Harmony-Badge-2017/firmware"
+      "/home/aflanagan/Devel/microchip/harmony/v1_09"
     ]
     icon: "icon-circuit-board"
   }
@@ -110,5 +111,14 @@
       "/home/aflanagan/Devel/gmail/mail-web-srvcs"
     ]
     icon: "icon-mail-read"
+  }
+  {
+    title: "Active Editor Info"
+    group: "Atom"
+    paths: [
+      "/home/aflanagan/Devel/atom/active-editor-info"
+    ]
+    icon: "atom-icon"
+    devMode: true
   }
 ]
