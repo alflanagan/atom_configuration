@@ -24,6 +24,7 @@ find-selection
 flex-tool-bar
 git-diff-details
 git-plus
+go-plus
 grammar-mode
 Hydrogen
 hyperclick

@@ -19,6 +19,7 @@ file-icons
 flex-tool-bar
 git-diff-details
 git-plus
+go-plus
 grammar-mode
 Hydrogen
 js-hyperclick
