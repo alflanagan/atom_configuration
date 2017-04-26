@@ -1,6 +1,25 @@
 [
   {
     type: "button"
+    iconset: "mdi"
+    icon: "content-save"
+    style:
+      color: "teal"
+    callback: "core:save"
+  }
+  {
+    type: "button"
+    iconset: "mdi"
+    icon: "content-save-all"
+    style:
+      color: "teal"
+    callback: "window:save-all"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
     icon: "document"
     callback: "application:new-file"
     tooltip: "New File"
@@ -25,25 +44,6 @@
     callback: "application:open-folder"
     style:
       color: "teal"
-  }
-  {
-    type: "spacer"
-  }
-  {
-    type: "button"
-    iconset: "mdi"
-    icon: "content-save"
-    style:
-      color: "teal"
-    callback: "core:save"
-  }
-  {
-    type: "button"
-    iconset: "mdi"
-    icon: "content-save-all"
-    style:
-      color: "teal"
-    callback: "window:save-all"
   }
   {
     type: "spacer"
