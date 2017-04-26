@@ -106,7 +106,8 @@
     title: "Badge2017"
     group: "HackRVA"
     paths: [
-      "~/Devel/personal/hackrva/Harmony-Badge-2017/firmware"
+      "/home/aflanagan/Devel/personal/hackrva/Harmony-Badge-2017/firmware"
+      "/home/aflanagan/Devel/personal/hackrva/microchip/harmony/v1_09"
     ]
     icon: "icon-circuit-board"
   }
@@ -132,6 +133,13 @@
     group: "BH Media"
     paths: [
       "/home/aflanagan/Devel/site_setup"
+    ]
+  }
+  {
+    title: "Nebhssports"
+    group: "BH Media"
+    paths: [
+      "/home/aflanagan/Devel/nebhssports"
     ]
   }
 ]
