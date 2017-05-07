@@ -18,6 +18,10 @@
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
+  "project-manager":
+    alwaysOpenInSameWindow: true
+    environmentSpecificProjects: true
+    savePathsRelativeToHome: true
   "terminal-plus":
     core:
       scrollback: 9999
