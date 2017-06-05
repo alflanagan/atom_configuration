@@ -19,7 +19,7 @@
     title: "Atom"
     group: "Atom"
     paths: [
-      "~/github/atom"
+      "~/Devel/atom/atom"
     ]
     icon: "atom-icon"
   }
@@ -45,7 +45,7 @@
     paths: [
       "~/Devel/utl_indexer"
     ]
-    icon: "fa fa-server"
+    icon: "mdi mdi-magnet"
   }
   {
     title: "Townnews Reader"
@@ -53,7 +53,7 @@
     paths: [
       "~/Devel/townnews_reader"
     ]
-    icon: "fa fa-server"
+    icon: "mdi mdi-magnet"
   }
   {
     title: "Shared Libraries"
@@ -61,7 +61,7 @@
     paths: [
       "~/Devel/shared_libraries"
     ]
-    icon: "fa fa-server"
+    icon: "mdi mdi-magnet"
   }
   {
     title: "Utl Lookup"
@@ -69,14 +69,7 @@
     paths: [
       "~/Devel/utl_lookup"
     ]
-  }
-  {
-    title: "Bootstrap 3 3 6"
-    group: "Frameworks"
-    paths: [
-      "~/src/bootstrap/bootstrap-3.3.6"
-    ]
-    icon: "fa fa-bold"
+    icon: "mdi mdi-magnet"
   }
   {
     title: "Gmail Intfc"
@@ -109,7 +102,7 @@
       "/home/aflanagan/Devel/personal/hackrva/Harmony-Badge-2017/firmware"
       "/home/aflanagan/Devel/personal/hackrva/microchip/harmony/v1_09"
     ]
-    icon: "icon-circuit-board"
+    icon: "mdi mdi-radioactive"
   }
   {
     title: "The Jobs Network Widgets"
@@ -127,6 +120,7 @@
       "~/Devel/atom/atom/src"
     ]
     icon: "atom-icon"
+    devMode: true
   }
   {
     title: "Site Setup"
@@ -134,12 +128,45 @@
     paths: [
       "/home/aflanagan/Devel/site_setup"
     ]
+    icon: "mdi mdi-beta"
   }
   {
     title: "Nebhssports"
     group: "BH Media"
     paths: [
       "/home/aflanagan/Devel/nebhssports"
+    ]
+    icon: "devicon-python-plain"
+  }
+  {
+    title: "Node Find"
+    group: "Node"
+    paths: [
+      "/home/aflanagan/Devel/personal/node_find"
+    ]
+    icon: "icon-search"
+  }
+  {
+    title: "Api Helper"
+    group: "BH Media"
+    paths: [
+      "/home/aflanagan/Devel/realmatch/api_helper"
+    ]
+    icon: "devicon-php-plain"
+  }
+  {
+    title: "Realmatch Code"
+    group: "BH Media"
+    paths: [
+      "/home/aflanagan/Devel/realmatch/realmatch_code"
+    ]
+    icon: "devicon-php-plain"
+  }
+  {
+    title: "Www"
+    group: "BH Media"
+    paths: [
+      "/home/aflanagan/Devel/www"
     ]
   }
 ]
