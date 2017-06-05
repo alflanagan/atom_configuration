@@ -12,7 +12,11 @@ import argparse
 # a dict of packages installed because they are dependencies of a package in my-packages.txt
 # better but difficult: get deps from package.json files
 DEPENDENCIES = {"linter": {"linter-ui-default"},
-                "linter-ui-default": {"intentions", "busy-signal"}}
+                "linter-ui-default": {"intentions", "busy-signal"},
+                "pythonic-atom": {"linter", "linter-ui-default", "linter-pycodestyle", "minimap",
+                                  "minimap-linter", "MagicPython", "python-tools", "python-yapf",
+                                  "autocomplete-python", "hyperclick", "script", "python-isort"}
+               }
 
 
 def get_args():
@@ -50,7 +54,11 @@ def get_wanted_packages():
     wanted = set()
     with open('my-packages.txt', 'r') as myin:
         for line in myin:
-            wanted.add(line[:-1])
+            pkgname = line[:-1]
+            wanted.add(pkgname)
+            if pkgname in DEPENDENCIES:
+                for pkg in DEPENDENCIES[pkgname]:
+                    wanted.add(pkgname)
     return wanted
 
 
