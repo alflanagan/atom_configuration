@@ -6,17 +6,21 @@ if ($env:OS -Like "Windows*")
     $pkg_list = "my-windows-packages.txt"
 }
 
-$betty = New-Object System.Collections.Generic.List[System.Object] 
-(Get-Content $pkg_list).ForEach( { $betty.Add($_) } )
+$DEPENDENCIES = @{linter = @("linter-ui-default");
+                  "linter-ui-default" = @("intentions", "busy-signal");
+                  "pythonic-atom" = @("linter", "linter-ui-default", "linter-pycodestyle", "minimap",
+                                  "minimap-linter", "MagicPython", "python-tools", "python-yapf",
+                                  "autocomplete-python", "hyperclick", "script", "python-isort")
+               }
+
+$expected = New-Object System.Collections.Generic.List[System.Object]
+(Get-Content $pkg_list).ForEach( { $expected.Add($_) } )
 # add auto-installed dependent pkgs
-# this may become untenable if more pkgs do that!
-$betty.Add("busy-signal")
-$betty.Add("intentions")
-$betty.Add("linter-ui-default")
+$DEPENDENCIES.Keys.ForEach({$DEPENDENCIES[$_].ForEach({$expected.Add($_)})})
 
 $wilma = apm list --no-color --bare --installed
 $installed = $wilma.ForEach( { $_.split('@')[0] } )
-$differences = Compare-Object -ReferenceObject $installed -DifferenceObject $betty
+$differences = Compare-Object -ReferenceObject $installed -DifferenceObject $expected
 
 # Compare-Object returns PSCustomObject if collections are equal (???)
 # but is schizo about type of return array
