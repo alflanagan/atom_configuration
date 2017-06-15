@@ -14,11 +14,13 @@ django-templates
 editorconfig
 emacs-plus
 emmet
+emmet-snippets-compatibility
 export-html
 file-icons
 flex-tool-bar
 git-plus
 go-plus
+goto
 grammar-mode
 Hydrogen
 jumpy
