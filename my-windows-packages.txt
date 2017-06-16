@@ -8,7 +8,6 @@ autoclose-html
 autocomplete-paths
 clipboard-plus
 custom-folds
-default-encoding
 disable-keybindings
 django-templates
 editorconfig
@@ -43,7 +42,6 @@ linter-tidy
 linter-xmllint
 minimap-git-diff
 open-html-in-browser
-path-hyperclick
 project-manager
 python-snippets
 shell-it
