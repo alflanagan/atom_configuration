@@ -1,4 +1,3 @@
-atom.beep()
 
 atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', ->
   return unless editor = atom.workspace.getActiveTextEditor()

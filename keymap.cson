@@ -33,15 +33,3 @@
   'alt-m ctrl-b': 'atom-keyboard-macros:execute_macro_from_top_to_bottom'
   'alt-m ctrl-e': 'atom-keyboard-macros:repeat_last_kbd_macro'
   'alt-m e': 'atom-keyboard-macros:call_last_kbd_macro'
-
-# override fuzzy-finder
-'body':
-  'ctrl-p': 'core:move-up'
-
-# meanwhile emacs-plus package overrides other key for fuzzy-finder
-'platform-linux':
-  'ctrl-alt-x': 'fuzzy-finder:toggle-file-finder'
-
-# lots of contention for ctrl-shift-m
-'atom-workspace atom-text-editor:not([mini])[data-grammar^="text md"]':
-  'ctrl-shift-M': 'markdown-preview:toggle'
