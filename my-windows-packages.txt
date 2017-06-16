@@ -21,7 +21,6 @@ git-plus
 go-plus
 grammar-mode
 Hydrogen
-js-hyperclick
 jumpy
 language-babel
 language-forth
