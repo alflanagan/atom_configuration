@@ -7,6 +7,9 @@ Optionally installs missing packages.
 
 import subprocess
 import argparse
+import platform
+import os
+
 # pylint: disable=invalid-name
 
 # a dict of packages installed because they are dependencies of a package in my-packages.txt
@@ -95,6 +98,8 @@ def main():
     """Driver function."""
     args = get_args()
     apm = 'apm-beta' if args.beta else 'apm'
+    if platform.system() == 'Windows':
+        apm = os.path.join(os.getenv("LOCALAPPDATA"), r'atom\bin\apm.cmd')
     installed = get_installed_pkgs(apm)
     wanted = get_wanted_packages()
     report_missing_packages(wanted, installed)
