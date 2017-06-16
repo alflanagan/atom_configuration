@@ -24,8 +24,10 @@ DEPENDENCIES = {"linter": {"linter-ui-default"},
 
 def get_args():
     """Parse command-line arguments, return namespace with values."""
-    parser = argparse.ArgumentParser(
-        description="Report or install apm packages according to my-packages.txt")
+    desc = "Report or install apm packages according to my-packages.txt"
+    if platform.system() == "Windows":
+        desc = "Report or install apm packages according to my-windows-packages.txt"
+    parser = argparse.ArgumentParser(description=desc)
     parser.add_argument('--install', action='store_true',
                         help="Actually install missing packages (default: report only).")
     parser.add_argument('--beta', action='store_true',
@@ -55,7 +57,10 @@ def get_installed_pkgs(apm_prog):
 def get_wanted_packages():
     """Read the list of desired packages from my-packages.txt file, return a set."""
     wanted = set()
-    with open('my-packages.txt', 'r') as myin:
+    fname = "my-packages.txt"
+    if platform.system() == "Windows":
+        fname = "my-windows-packages.txt"
+    with open(fname, 'r') as myin:
         for line in myin:
             pkgname = line[:-1]
             wanted.add(pkgname)
