@@ -2,7 +2,6 @@ pythonic-atom
 advanced-open-file
 atom-beautify
 atom-keyboard-macros
-atom-live-grammar-reload
 atom-ternjs
 autoclose-html
 autocomplete-paths
@@ -23,7 +22,6 @@ goto
 grammar-mode
 Hydrogen
 jumpy
-language-babel
 language-forth
 language-javascript-jsx
 language-markdown
@@ -33,11 +31,9 @@ language-svg
 last-cursor-position
 linter-coffeescript
 linter-eslint
-linter-gcc
 linter-jsonlint
 linter-less
 linter-pydocstyle
-linter-shellcheck
 linter-tidy
 linter-xmllint
 minimap-git-diff
