@@ -1,68 +1,179 @@
 [
   {
-    title: "Lloyd Flanagan Word Count"
+    title: "LF Word Count"
     group: "Atom"
     paths: [
-      "/home/aflanagan/Devel/atom/lloyd-flanagan-word-count"
+      "~\\Devel\\atom\\lloyd-flanagan-word-count"
     ]
-    devMode: true
+    icon: "atom-icon"
   }
   {
     title: "Atom Configuration"
     group: "Atom"
     paths: [
-      "/home/aflanagan/Devel/atom/atom_configuration"
+      "~\\Devel\\atom\\atom_configuration"
     ]
+    icon: "atom-icon"
   }
   {
-    title: "Atom Utl"
+    title: "Atom"
     group: "Atom"
     paths: [
-      "/home/aflanagan/Devel/atom/atom-language-utl"
+      "~\\Devel\\atom\\atom"
     ]
+    icon: "atom-icon"
+  }
+  {
+    title: "Svgmaps"
+    group: "BH Media"
+    paths: [
+      "~\\Devel\\svgmaps"
+    ]
+    icon: "icon-tools"
+  }
+  {
+    title: "Atom Language Utl"
+    group: "Atom"
+    paths: [
+      "~\\Devel\\atom\\atom-language-utl"
+    ]
+    icon: "atom-icon"
+  }
+  {
+    title: "Utl Indexer"
+    group: "BLOX"
+    paths: [
+      "~\\Devel\\utl_indexer"
+    ]
+    icon: "mdi mdi-magnet"
+  }
+  {
+    title: "Townnews Reader"
+    group: "BLOX"
+    paths: [
+      "~\\Devel\\townnews_reader"
+    ]
+    icon: "mdi mdi-magnet"
+  }
+  {
+    title: "Shared Libraries"
+    group: "BH Media"
+    paths: [
+      "~\\Devel\\shared_libraries"
+    ]
+    icon: "mdi mdi-magnet"
+  }
+  {
+    title: "Utl Lookup"
+    group: "BLOX"
+    paths: [
+      "~\\Devel\\utl_lookup"
+    ]
+    icon: "mdi mdi-magnet"
+  }
+  {
+    title: "Gmail Intfc"
+    group: "Mail"
+    paths: [
+      "~\\Devel\\personal\\mail-electron-intfc"
+    ]
+    icon: "icon-mail-read"
+  }
+  {
+    title: "Hacker Web"
+    group: "HackRVA"
+    paths: [
+      "~\\Devel\\personal\\hackrva\\hacker-web"
+    ]
+    icon: "ion-social-html5"
+  }
+  {
+    title: "Gmail Web Svcs"
+    group: "Mail"
+    paths: [
+      "~\\Devel\\personal\\mail-web-srvcs"
+    ]
+    icon: "icon-mail-read"
+  }
+  {
+    title: "Badge2017"
+    group: "HackRVA"
+    paths: [
+      "\\home\\aflanagan\\Devel\\personal\\hackrva\\Harmony-Badge-2017\\firmware"
+      "\\home\\aflanagan\\Devel\\personal\\hackrva\\microchip\\harmony\\v1_09"
+    ]
+    icon: "mdi mdi-radioactive"
+  }
+  {
+    title: "The Jobs Network Widgets"
+    group: "BH Media"
+    paths: [
+      "~\\Devel\\richmond.com\\jobs.thejobnetwork.com"
+    ]
+    icon: "icon-package"
+  }
+  {
+    title: "Symbol Quick Pane"
+    group: "Atom"
+    paths: [
+      "~\\Devel\\atom\\atom-symbol-quick-pane"
+      "~\\Devel\\atom\\atom\\src"
+    ]
+    icon: "atom-icon"
     devMode: true
   }
   {
-    title: "Language Mips"
-    group: "Atom"
+    title: "Site Setup"
+    group: "BH Media"
     paths: [
-      "/home/aflanagan/Devel/atom/language-mips"
+      "\\home\\aflanagan\\Devel\\site_setup"
     ]
-    devMode: true
+    icon: "mdi mdi-beta"
   }
   {
-    title: "My Website"
-    group: "Web"
+    title: "Nebhssports"
+    group: "BH Media"
     paths: [
-      "/home/aflanagan/Devel/adrian-l-flanagan"
+      "\\home\\aflanagan\\Devel\\nebhssports"
     ]
-  }
-  {
-    title: "Css Compare"
-    group: "Python"
-    paths: [
-      "/home/aflanagan/Devel/css_compare"
-    ]
+    icon: "devicon-python-plain"
   }
   {
     title: "Node Find"
     group: "Node"
     paths: [
-      "/home/aflanagan/Devel/node/node_find"
+      "\\home\\aflanagan\\Devel\\personal\\node_find"
+    ]
+    icon: "icon-search"
+  }
+  {
+    title: "Api Helper"
+    group: "BH Media"
+    paths: [
+      "\\home\\aflanagan\\Devel\\realmatch\\api_helper"
+    ]
+    icon: "devicon-php-plain"
+  }
+  {
+    title: "Realmatch Code"
+    group: "BH Media"
+    paths: [
+      "\\home\\aflanagan\\Devel\\realmatch\\realmatch_code"
+    ]
+    icon: "devicon-php-plain"
+  }
+  {
+    title: "Www"
+    group: "BH Media"
+    paths: [
+      "\\home\\aflanagan\\Devel\\www"
     ]
   }
   {
-    title: "Bookmark Server"
-    group: "Web"
+    title: "Realmatch Code"
+    icon: "devicon-php-plain"
     paths: [
-      "/home/aflanagan/Devel/node/bkmk_server"
-    ]
-  }
-  {
-    title: "Utl Indexer"
-    group: "BHMG"
-    paths: [
-      "/home/aflanagan/Devel/utl_indexer"
+      "~\\Documents\\GitHub\\realmatch_code"
     ]
   }
 ]
