@@ -14,13 +14,19 @@ $DEPENDENCIES = @{linter = @("linter-ui-default");
                }
 
 $expected = New-Object System.Collections.Generic.List[System.Object]
-(Get-Content $pkg_list).ForEach( { $expected.Add($_) } )
+(Get-Content $pkg_list).ForEach({ $expected.Add($_) })
 # add auto-installed dependent pkgs
-$DEPENDENCIES.Keys.ForEach({$DEPENDENCIES[$_].ForEach({$expected.Add($_)})})
+ForEach ($key in $DEPENDENCIES.Keys) {
+    ForEach($_ in $DEPENDENCIES[$key]) {
+        $expected.Add($_)
+    }
+}
 
 $wilma = apm list --no-color --bare --installed
 $installed = $wilma.ForEach( { $_.split('@')[0] } )
+# Write-Host $installed
 $differences = Compare-Object -ReferenceObject $installed -DifferenceObject $expected
+
 
 # Compare-Object returns PSCustomObject if collections are equal (???)
 # but is schizo about type of return array
