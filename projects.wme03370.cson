@@ -1,13 +1,5 @@
 [
   {
-    title: "LF Word Count"
-    group: "Atom"
-    paths: [
-      "~/Devel/atom/lloyd-flanagan-word-count"
-    ]
-    icon: "atom-icon"
-  }
-  {
     title: "Atom Configuration"
     group: "Atom"
     paths: [
@@ -99,8 +91,8 @@
     title: "Badge2017"
     group: "HackRVA"
     paths: [
-      "/home/aflanagan/Devel/personal/hackrva/Harmony-Badge-2017/firmware"
-      "/home/aflanagan/Devel/personal/hackrva/microchip/harmony/v1_09"
+      "~/Devel/personal/hackrva/Harmony-Badge-2017/firmware"
+      "~/Devel/personal/hackrva/microchip/harmony/v1_09"
     ]
     icon: "mdi mdi-radioactive"
   }
@@ -126,7 +118,7 @@
     title: "Site Setup"
     group: "BH Media"
     paths: [
-      "/home/aflanagan/Devel/site_setup"
+      "~/Devel/site_setup"
     ]
     icon: "mdi mdi-beta"
   }
@@ -134,7 +126,7 @@
     title: "Nebhssports"
     group: "BH Media"
     paths: [
-      "/home/aflanagan/Devel/nebhssports"
+      "~/Devel/nebhssports"
     ]
     icon: "devicon-python-plain"
   }
@@ -142,7 +134,7 @@
     title: "Node Find"
     group: "Node"
     paths: [
-      "/home/aflanagan/Devel/personal/node_find"
+      "~/Devel/personal/node_find"
     ]
     icon: "icon-search"
   }
@@ -150,7 +142,8 @@
     title: "Api Helper"
     group: "BH Media"
     paths: [
-      "/home/aflanagan/Devel/realmatch/api_helper"
+      "~/Devel/realmatch/api_helper"
+      "~/Devel/realmatch/realmatch_code/docs"
     ]
     icon: "devicon-php-plain"
   }
@@ -158,7 +151,8 @@
     title: "Realmatch Code"
     group: "BH Media"
     paths: [
-      "/home/aflanagan/Devel/realmatch/realmatch_code"
+      "~/Devel/realmatch/realmatch_code"
+      "~/Devel/realmatch/api_helper"
     ]
     icon: "devicon-php-plain"
   }
@@ -166,7 +160,16 @@
     title: "Www"
     group: "BH Media"
     paths: [
-      "/home/aflanagan/Devel/www"
+      "~/Devel/www"
     ]
+  }
+  {
+    title: "BadgeForth"
+    group: "HackRVA"
+    paths: [
+      "~/Devel/personal/hackrva/BadgeForth/firmware"
+      "~/Devel/personal/hackrva/microchip/harmony/v2_03b"
+    ]
+    icon: "mdi mdi-radioactive"
   }
 ]
