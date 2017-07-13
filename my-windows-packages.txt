@@ -1,4 +1,3 @@
-pythonic-atom
 advanced-open-file
 atom-beautify
 atom-keyboard-macros
@@ -11,14 +10,10 @@ disable-keybindings
 django-templates
 editorconfig
 emacs-plus
-emmet
-emmet-snippets-compatibility
 export-html
 file-icons
 flex-tool-bar
-git-plus
 go-plus
-goto
 grammar-mode
 Hydrogen
 jumpy
@@ -37,9 +32,9 @@ linter-pydocstyle
 linter-tidy
 linter-xmllint
 minimap-git-diff
-open-html-in-browser
 project-manager
 python-snippets
+pythonic-atom
 shell-it
 slickedit-select
 sort-lines
