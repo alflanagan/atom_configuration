@@ -1,10 +1,10 @@
-'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-  'ctrl-e': 'editor:move-to-end-of-screen-line'
-  'ctrl-shift-e': 'editor:select-to-end-of-line'
-  'alt-shift-e': 'find-and-replace:use-selection-as-find-pattern'  # was ctrl-e
+# '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+#   'ctrl-e': 'editor:move-to-end-of-screen-line'
+#   'ctrl-shift-e': 'editor:select-to-end-of-line'
+#   'alt-shift-e': 'find-and-replace:use-selection-as-find-pattern'  # was ctrl-e
 # emacs-plus redefines ctrl-d but doesn't override find-and-replace:select-next
 # for these platforms
-  'ctrl-d': 'core:delete'
+  # 'ctrl-d': 'core:delete'
 
 '.platform-darwin atom-text-editor:not([mini])':
   'cmd-shift-v': 'clipboard-plus:toggle'
@@ -16,10 +16,10 @@
   'ctrl-shift-v': 'clipboard-plus:toggle'
 
 'atom-workspace atom-text-editor':
-  'alt-shift-a': 'core:select-all'  # was ctrl-a
-  'ctrl-a': 'editor:move-to-first-character-of-line'
-  'ctrl-shift-a': 'editor:select-to-first-character-of-line'
-  'ctrl-/': 'core:undo'
+  # 'alt-shift-a': 'core:select-all'  # was ctrl-a
+  # 'ctrl-a': 'editor:move-to-first-character-of-line'
+  # 'ctrl-shift-a': 'editor:select-to-first-character-of-line'
+  # 'ctrl-/': 'core:undo'
   'alt-shift-i': 'window:toggle-invisibles'
 
 # great. ctrl-k is delete-to-end-of-line in emacs
