@@ -1,0 +1,63 @@
+[
+  {
+    title: "theeagle_archives"
+    group: "TN exports"
+    paths: [
+      "~/Devel/townnews_imports/theeagle_archives"
+    ]
+    icon: "icon-squirrel"
+  }
+  {
+    title: "atom_configuration"
+    group: "personal"
+    paths: [
+      "~/Devel/atom_configuration"
+    ]
+    icon: "icon-settings"
+  }
+  {
+    title: "shared_libraries"
+    group: "TN exports"
+    paths: [
+      "~/Devel/shared_libraries"
+    ]
+    icon: "icon-repo"
+  }
+  {
+    title: "useful_scripts"
+    group: "side-projects"
+    paths: [
+      "~/bin"
+    ]
+  }
+  {
+    title: "Downloads"
+    group: "personal"
+    paths: [
+      "~/Downloads"
+    ]
+  }
+  {
+    title: "utl_indexer"
+    group: "side-projects"
+    paths: [
+      "~/Devel/utl_indexer"
+    ]
+    icon: "icomoon icomoon-lab"
+  }
+  {
+    title: "utl_lookup"
+    group: "side-projects"
+    paths: [
+      "~/Devel/utl_lookup"
+    ]
+    icon: "octicon-beaker"
+  }
+  {
+    title: "node_find"
+    group: "personal"
+    paths: [
+      "~/Devel/node_find"
+    ]
+  }
+]
