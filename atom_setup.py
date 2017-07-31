@@ -14,12 +14,15 @@ import os
 
 # a dict of packages installed because they are dependencies of a package in my-packages.txt
 # better but difficult: get deps from package.json files
-DEPENDENCIES = {"linter": {"linter-ui-default"},
-                "linter-ui-default": {"intentions", "busy-signal"},
-                "pythonic-atom": {"linter", "linter-ui-default", "linter-pycodestyle", "minimap",
-                                  "minimap-linter", "MagicPython", "python-tools", "python-yapf",
-                                  "autocomplete-python", "hyperclick", "script", "python-isort"}
-               }
+DEPENDENCIES = {
+    "linter": {"linter-ui-default"},
+    "linter-ui-default": {"intentions", "busy-signal"},
+    "pythonic-atom": {
+        "linter", "linter-ui-default", "linter-pycodestyle", "minimap",
+        "minimap-linter", "MagicPython", "python-tools", "python-yapf",
+        "autocomplete-python", "hyperclick", "script", "python-isort"
+    }
+}
 
 
 def get_args():
@@ -28,16 +31,21 @@ def get_args():
     if platform.system() == "Windows":
         desc = "Report or install apm packages according to my-windows-packages.txt"
     parser = argparse.ArgumentParser(description=desc)
-    parser.add_argument('--install', action='store_true',
-                        help="Actually install missing packages (default: report only).")
-    parser.add_argument('--beta', action='store_true',
-                        help="Act on beta-channel atom version.")
+    parser.add_argument(
+        '--install',
+        action='store_true',
+        help="Actually install missing packages (default: report only).")
+    parser.add_argument(
+        '--beta',
+        action='store_true',
+        help="Act on beta-channel atom version.")
     return parser.parse_args()
 
 
 def get_installed_pkgs(apm_prog):
     """Use `apm_prog` to get list of currently installed packages, return as a set."""
-    apm_list = subprocess.Popen([apm_prog, 'list', '-ib'], stdout=subprocess.PIPE, bufsize=-1)
+    apm_list = subprocess.Popen(
+        [apm_prog, 'list', '-ib'], stdout=subprocess.PIPE, bufsize=-1)
     results, _ = apm_list.communicate()
 
     installed = set()
