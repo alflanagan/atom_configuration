@@ -8,14 +8,6 @@
     icon: "atom-icon"
   }
   {
-    title: "Atom"
-    group: "Atom"
-    paths: [
-      "~/Devel/atom/atom"
-    ]
-    icon: "atom-icon"
-  }
-  {
     title: "Svgmaps"
     group: "BH Media"
     paths: [
@@ -109,7 +101,6 @@
     group: "Atom"
     paths: [
       "~/Devel/atom/atom-symbol-quick-pane"
-      "~/Devel/atom/atom/src"
     ]
     icon: "atom-icon"
     devMode: true
@@ -146,6 +137,15 @@
       "~/Devel/realmatch/realmatch_code/docs"
     ]
     icon: "devicon-php-plain"
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 7.1
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
   }
   {
     title: "Realmatch Code"
@@ -155,6 +155,15 @@
       "~/Devel/realmatch/api_helper"
     ]
     icon: "devicon-php-plain"
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 7.1
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
   }
   {
     title: "Www"
