@@ -3,6 +3,7 @@ advanced-open-file
 atom-beautify
 atom-keyboard-macros
 atom-live-grammar-reload
+atom-notes
 atom-ternjs
 autoclose-html
 autocomplete-paths
@@ -15,7 +16,6 @@ export-html
 file-icons
 flex-tool-bar
 go-plus
-goto
 grammar-mode
 Hydrogen
 js-hyperclick
@@ -37,7 +37,6 @@ linter-less
 linter-phpcs
 linter-pydocstyle
 linter-shellcheck
-linter-tidy
 linter-xmllint
 minimap-git-diff
 open-unsupported-files

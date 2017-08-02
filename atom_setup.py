@@ -20,7 +20,7 @@ DEPENDENCIES = {
     "pythonic-atom": {
         "linter", "linter-ui-default", "linter-pycodestyle", "minimap",
         "minimap-linter", "MagicPython", "python-tools", "python-yapf",
-        "autocomplete-python", "hyperclick", "script", "python-isort"
+        "autocomplete-python", "hyperclick", "script", "atom-isort"
     }
 }
 

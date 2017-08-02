@@ -2,6 +2,7 @@ pythonic-atom
 advanced-open-file
 atom-beautify
 atom-keyboard-macros
+atom-notes
 atom-ternjs
 autoclose-html
 autocomplete-paths
@@ -33,7 +34,6 @@ linter-jsonlint
 linter-less
 linter-phpcs
 linter-pydocstyle
-linter-tidy
 linter-xmllint
 minimap-git-diff
 php-integrator-annotations
