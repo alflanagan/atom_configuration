@@ -17,11 +17,11 @@ import os
 DEPENDENCIES = {
     "linter": {"linter-ui-default"},
     "linter-ui-default": {"intentions", "busy-signal"},
-    "pythonic-atom": {
-        "linter", "linter-ui-default", "linter-pycodestyle", "minimap",
-        "minimap-linter", "MagicPython", "python-tools", "python-yapf",
-        "autocomplete-python", "hyperclick", "script", "atom-isort"
-    }
+    # "pythonic-atom": {
+    #     "linter", "linter-ui-default", "linter-pycodestyle", "minimap",
+    #     "minimap-linter", "MagicPython", "python-tools", "python-yapf",
+    #     "autocomplete-python", "hyperclick", "script", "atom-isort"
+    # }
 }
 
 
