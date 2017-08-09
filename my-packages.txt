@@ -33,8 +33,8 @@ language-svg
 last-cursor-position
 linter
 linter-coffeescript
-linter-eslint
 linter-gcc
+linter-js-standard
 linter-jsonlint
 linter-less
 linter-phpcs
@@ -53,6 +53,7 @@ php-integrator-base
 php-integrator-navigation
 php-integrator-refactoring
 php-integrator-symbol-viewer
+pigments
 postcss-sorting
 project-manager
 python-snippets
@@ -63,5 +64,7 @@ shell-it
 slickedit-select
 sort-lines
 split-diff
+standard-formatter
+standardjs-snippets
 terminal-plus
 tool-bar
