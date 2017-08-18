@@ -181,4 +181,21 @@
     ]
     icon: "mdi mdi-radioactive"
   }
+  {
+    title: "Atom Pkg Groups"
+    group: "Atom"
+    paths: [
+      "~/Devel/atom/pkg-groups"
+    ]
+    icon: "atom-icon"
+    devMode: true
+  }
+  {
+    title: "Bootstrap4 Experiments"
+    group: "BH Media"
+    paths: [
+      "~/Devel/bootstrap4"
+      "~/Devel/bootstrap"
+    ]
+  }
 ]
