@@ -1,10 +1,31 @@
 "*":
+  "":
+    python:
+      source:
+        editor:
+          autoIndentOnPaste: true
+          tabLength: 4
+          tabType: "soft"
+  "atom-beautify":
+    html:
+      end_with_newline: true
+      wrap_attributes: "force-aligned"
+      wrap_line_length: 100
   "atom-ternjs":
     inlineFnCompletionDocumentation: true
   "autocomplete-python":
     useKite: false
     useSnippets: "all"
   core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "language-gfm"
+      "language-python"
+    ]
+    packagesWithKeymapsDisabled: [
+      "tool-bar"
+      "standardjs-snippets"
+    ]
     telemetryConsent: "limited"
     themes: [
       "atom-light-ui"
@@ -12,12 +33,20 @@
     ]
   editor:
     preferredLineLength: 100
+    fontSize: 15
+    tabType: "soft"
   "linter-shellcheck":
     enableNotice: true
-  minimap:
-    plugins:
-      "git-diff": true
-      "git-diffDecorationsZIndex": 0
+  "markdown-preview":
+    grammars: [
+      "source.gfm"
+      "source.litcoffee"
+      "text.html.basic"
+      "text.md"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.gfm.notes"
+    ]
   "project-manager":
     alwaysOpenInSameWindow: true
     environmentSpecificProjects: true
@@ -34,3 +63,8 @@
     position: "Top"
   welcome:
     showOnStartup: false
+".html.php.text":
+  editor:
+    autoIndentOnPaste: true
+    tabLength: 4
+    tabType: "soft"
