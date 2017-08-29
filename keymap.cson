@@ -21,11 +21,10 @@
   # 'ctrl-shift-a': 'editor:select-to-first-character-of-line'
   # 'ctrl-/': 'core:undo'
   'alt-shift-i': 'window:toggle-invisibles'
-
-# great. ctrl-k is delete-to-end-of-line in emacs
-# in atom it's a prefix key, so we'd have to remap a lot of keys
+  'F10': 'editor:delete-to-next-word-boundary'
 
 # move keyboard-macros away from ctrl-x entirely
+# TODO: Fix conflict with php-integrator, God knows who else
 'atom-workspace':
   'alt-m (': 'atom-keyboard-macros:start_kbd_macro'
   'alt-m )': 'atom-keyboard-macros:end_kbd_macro'
@@ -36,3 +35,8 @@
 
 'atom-text-editor':
   'ctrl-alt-n': 'atom-notes:toggle'
+
+'atom-text-editor:not([mini])':
+  'ctrl-alt-w': 'emmet:wrap-with-abbreviation'
+  'ctrl-alt-m': 'emmet:merge-lines'  # ctrl-shift-m
+  'ctrl-alt-e': 'emmet:interactive-expand-abbreviation' # ctrl-alt-enter

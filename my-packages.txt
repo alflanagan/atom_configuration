@@ -13,6 +13,7 @@ custom-folds
 disable-keybindings
 django-templates
 editorconfig
+emmet
 export-html
 file-icons
 flex-tool-bar
