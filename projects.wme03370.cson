@@ -198,4 +198,12 @@
       "~/Devel/bootstrap"
     ]
   }
+  {
+    title: "omaha.com Website"
+    group: "BH Media"
+    paths: [
+      "~/Devel/omaha.com"
+    ]
+    icon: "ion-social-html5"
+  }
 ]
