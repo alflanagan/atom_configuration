@@ -103,7 +103,6 @@
       "~/Devel/atom/atom-symbol-quick-pane"
     ]
     icon: "atom-icon"
-    devMode: true
   }
   {
     title: "Site Setup"
@@ -186,9 +185,9 @@
     group: "Atom"
     paths: [
       "~/Devel/atom/pkg-groups"
+      "~/Devel/atom/pkg-groups/node_modules/etch"
     ]
     icon: "atom-icon"
-    devMode: true
   }
   {
     title: "Bootstrap4 Experiments"
