@@ -35,8 +35,37 @@
 
 'atom-text-editor':
   'ctrl-alt-n': 'atom-notes:toggle'
+# cursor movement
+  'ctrl-n': 'core:move-down'
+  #TODO: set new key for fuzzy-finder
+  'ctrl-p': 'core:move-up'
+  #TODO: set new key for find-and-replace:use-selection-as-find-pattern
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
 
 'atom-text-editor:not([mini])':
   'ctrl-alt-w': 'emmet:wrap-with-abbreviation'
   'ctrl-alt-m': 'emmet:merge-lines'  # ctrl-shift-m
   'ctrl-alt-e': 'emmet:interactive-expand-abbreviation' # ctrl-alt-enter
+
+'atom-text-editor[data-grammar~="source"]':
+  'ctrl-M': 'source-preview:toggle'
+
+# resolve conflict between atom-ide-ui and atom-ternjs packages
+'atom-text-editor[data-grammar~=js]':
+  'ctrl-alt-shift-d': 'atom-ternjs:definition'
+  'ctrl-alt-space': 'atom-ternjs:startCompletion'
+  'alt-shift-o': 'atom-ternjs:documentation'
+  'ctrl-shift-cmd-left': 'atom-ternjs:navigateBack'
+  'ctrl-shift-cmd-right': 'atom-ternjs:navigateForward'
+
+'.platform-darwin atom-text-editor[data-grammar~=js]':
+  'ctrl-alt-c': 'atom-ternjs:rename'
+  'ctrl-shift-r': 'atom-ternjs:references'
+
+'.platform-linux atom-text-editor[data-grammar~=js]':
+  'ctrl-alt-shift-c': 'atom-ternjs:rename'
+  'ctrl-alt-shift-e': 'atom-ternjs:references'
+
+'.platform-win32 atom-text-editor[data-grammar~=js]':
+  'ctrl-alt-c': 'atom-ternjs:rename'
+  'ctrl-shift-e': 'atom-ternjs:references'
