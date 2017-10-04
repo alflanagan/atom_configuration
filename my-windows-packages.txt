@@ -4,6 +4,7 @@ atom-ide-ui
 atom-isort
 atom-keyboard-macros
 atom-notes
+atom-ternjs
 autoclose-html
 autocomplete-paths
 autocomplete-python
@@ -26,6 +27,7 @@ jumpy
 language-babel
 language-forth
 language-generic-config
+language-ini
 language-markdown
 language-mips
 language-powershell
@@ -39,6 +41,7 @@ linter-less
 linter-phpcs
 linter-pycodestyle
 linter-pydocstyle
+linter-tidy
 linter-xmllint
 MagicPython
 minimap
@@ -55,8 +58,9 @@ script
 shell-it
 slickedit-select
 sort-lines
+source-preview
 split-diff
 standard-formatter
+svg-preview
 terminal-plus
 tool-bar
-language-ini
