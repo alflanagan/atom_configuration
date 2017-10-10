@@ -22,3 +22,19 @@ atom-text-editor {
 div.find-and-replace atom-text-editor .line {
   -webkit-font-feature-settings: "liga" off, "calt" off;
 }
+
+//smoother scrolling for mouse wheel
+atom-text-editor.editor > div > .scroll-view > div,
+atom-text-editor.editor > div > .gutter-container > div {
+    transition: -webkit-transform .15s ease;
+}
+
+//highlight trailing whitespace.
+atom-text-editor {
+  div.line:not(.cursor-line) {
+    .trailing-whitespace {
+      background-color: @background-color-error;
+      color: contrast(@background-color-error);
+    }
+  }
+}
