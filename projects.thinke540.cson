@@ -3,8 +3,7 @@
     title: "Badge 2017"
     group: "HackRVA"
     paths: [
-      "/home/aflanagan/Devel/hackrva/Harmony-Badge-2017/firmware"
-      "/home/aflanagan/Devel/microchip/harmony/v1_09"
+      "~/Devel/hackrva/Harmony-Badge-2017/firmware"
     ]
     icon: "icon-circuit-board"
   }
@@ -12,7 +11,7 @@
     title: "Hacker Web"
     group: "HackRVA"
     paths: [
-      "/home/aflanagan/Devel/hackrva/hacker-web"
+      "~/Devel/hackrva/hacker-web"
     ]
     icon: "ion-social-html5"
   }
@@ -20,23 +19,15 @@
     title: "PyBadge"
     group: "HackRVA"
     paths: [
-      "/home/aflanagan/Devel/hackrva/PyBadge"
+      "~/Devel/hackrva/PyBadge"
     ]
     icon: "icon-circuit-board"
-  }
-  {
-    title: "LF Word Count"
-    group: "Atom"
-    paths: [
-      "/home/aflanagan/Devel/atom/lloyd-flanagan-word-count"
-    ]
-    icon: "atom-icon"
   }
   {
     title: "Atom Configuration"
     group: "Atom"
     paths: [
-      "/home/aflanagan/Devel/atom/atom_configuration"
+      "~/Devel/atom/atom_configuration"
     ]
     icon: "atom-icon"
   }
@@ -44,7 +35,7 @@
     title: "Atom Utl"
     group: "Atom"
     paths: [
-      "/home/aflanagan/Devel/atom/atom-language-utl"
+      "~/Devel/atom/atom-language-utl"
     ]
     icon: "atom-icon"
   }
@@ -52,7 +43,7 @@
     title: "Language Mips"
     group: "Atom"
     paths: [
-      "/home/aflanagan/Devel/atom/language-mips"
+      "~/Devel/atom/language-mips"
     ]
     icon: "atom-icon"
   }
@@ -60,7 +51,7 @@
     title: "My Website"
     group: "Web"
     paths: [
-      "/home/aflanagan/Devel/adrian-l-flanagan"
+      "~/Devel/adrian-l-flanagan"
     ]
     icon: "fa-html5"
   }
@@ -68,7 +59,7 @@
     title: "Css Compare"
     group: "Python"
     paths: [
-      "/home/aflanagan/Devel/css_compare"
+      "~/Devel/css_compare"
     ]
     icon: "devicon-css3-plain"
   }
@@ -76,7 +67,7 @@
     title: "Node Find"
     group: "Node"
     paths: [
-      "/home/aflanagan/Devel/node/node_find"
+      "~/Devel/node/node_find"
     ]
     icon: "icon-search"
   }
@@ -84,7 +75,7 @@
     title: "Bookmark Server"
     group: "Web"
     paths: [
-      "/home/aflanagan/Devel/node/bkmk_server"
+      "~/Devel/node/bkmk_server"
     ]
     icon: "fa-bookmark"
   }
@@ -92,7 +83,7 @@
     title: "Utl Indexer"
     group: "BHMG"
     paths: [
-      "/home/aflanagan/Devel/utl_indexer"
+      "~/Devel/utl_indexer"
     ]
     icon: "fa-server"
   }
@@ -100,7 +91,7 @@
     title: "Gmail Intfc"
     group: "Mail"
     paths: [
-      "/home/aflanagan/Devel/gmail/mail-electron-intfc"
+      "~/Devel/gmail/mail-electron-intfc"
     ]
     icon: "icon-mail-read"
   }
@@ -108,17 +99,17 @@
     title: "Gmail Web Svcs"
     group: "Mail"
     paths: [
-      "/home/aflanagan/Devel/gmail/mail-web-srvcs"
+      "~/Devel/gmail/mail-web-srvcs"
     ]
     icon: "icon-mail-read"
   }
   {
-    title: "Active Editor Info"
+    title: "Pkg Groups"
     group: "Atom"
     paths: [
-      "/home/aflanagan/Devel/atom/active-editor-info"
+      "~/Devel/atom/pkg-groups"
+      "~/Devel/atom/etch"
     ]
     icon: "atom-icon"
-    devMode: true
   }
 ]
