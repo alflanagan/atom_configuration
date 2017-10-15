@@ -51,6 +51,7 @@ minimap-git-diff
 minimap-linter
 open-unsupported-files
 pigments
+platformio-ide-terminal
 postcss-sorting
 project-manager
 python-snippets
@@ -58,11 +59,10 @@ python-tools
 python-yapf
 script
 shell-it
-slickedit-select
 sort-lines
 source-preview
 split-diff
 standard-formatter
+Sublime-Style-Column-Selection
 svg-preview
-terminal-plus
 tool-bar
