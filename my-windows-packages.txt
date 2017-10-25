@@ -12,6 +12,7 @@ clipboard-plus
 custom-folds
 disable-keybindings
 django-templates
+docblockr
 editorconfig
 emmet
 export-html
@@ -22,7 +23,6 @@ grammar-mode
 Hydrogen
 ide-csharp
 ide-php
-ide-typescript
 jumpy
 language-babel
 language-forth
@@ -47,8 +47,8 @@ MagicPython
 minimap
 minimap-git-diff
 minimap-linter
+node-repl
 open-unsupported-files
-pigments
 platformio-ide-terminal
 postcss-sorting
 project-manager

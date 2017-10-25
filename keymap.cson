@@ -69,3 +69,8 @@
 '.platform-win32 atom-text-editor[data-grammar~=js]':
   'ctrl-alt-c': 'atom-ternjs:rename'
   'ctrl-shift-e': 'atom-ternjs:references'
+
+# docblockr has better reflow than autoflow. put it on separate key for now, may
+# want to just override autoflow at some point
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-alt-q': 'docblockr:wrap-lines'
