@@ -23,6 +23,7 @@ grammar-mode
 Hydrogen
 ide-csharp
 ide-php
+ide-typescript
 jumpy
 language-babel
 language-forth

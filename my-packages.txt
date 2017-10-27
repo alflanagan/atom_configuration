@@ -24,6 +24,7 @@ go-plus
 grammar-mode
 Hydrogen
 ide-php
+ide-typescript
 jumpy
 language-babel
 language-forth
