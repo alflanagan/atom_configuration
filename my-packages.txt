@@ -55,7 +55,10 @@ node-repl
 open-unsupported-files
 platformio-ide-terminal
 postcss-sorting
+pristine-ui
+process-palette
 project-manager
+pure-syntax
 python-snippets
 python-tools
 python-yapf
