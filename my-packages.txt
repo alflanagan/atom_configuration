@@ -53,6 +53,8 @@ minimap-git-diff
 minimap-linter
 node-repl
 open-unsupported-files
+platformio-ide
+platformio-ide-debugger
 platformio-ide-terminal
 postcss-sorting
 pristine-ui
