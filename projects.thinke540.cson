@@ -112,4 +112,13 @@
     ]
     icon: "atom-icon"
   }
+  {
+    title: "Atom Perspectives"
+    group: "Atom"
+    paths: [
+      "~/Devel/atom/atom-perspectives"
+      "~/Devel/atom/etch"
+    ]
+    icon: "atom-icon"
+  }
 ]
