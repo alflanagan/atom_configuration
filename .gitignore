@@ -28,3 +28,4 @@ node_modules
 # the ascii art tutorial from atom flight manual
 # not included for copyright reasons, etc.
 tut-ascii-art/
+*.wpu
