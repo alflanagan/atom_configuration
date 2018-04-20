@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# encoding: utf-8
 # vim: sw=4:ts=4:expandtab
 """Compare installed Atom packages to a list of expected packages.
 
@@ -39,6 +40,16 @@ def get_args():
         '--beta',
         action='store_true',
         help="Act on beta-channel atom version.")
+    parser.add_argument(
+        '--keys',
+        action='store',
+        help="One or more keys (sepd. by ;) that specify optional groups of packages to install"
+    )
+    parser.add_argument(
+        '--list-keys',
+        action='store_true',
+        help="Prints a list of optional group names that can be installed. Other args are ignored!"
+    )
     return parser.parse_args()
 
 
@@ -62,20 +73,43 @@ def get_installed_pkgs(apm_prog):
     return installed
 
 
-def get_wanted_packages():
-    """Read the list of desired packages from my-packages.txt file, return a set."""
-    wanted = set()
+def read_pkgs_file():
+    lines = []
     fname = "my-packages.txt"
     if platform.system() == "Windows":
         fname = "my-windows-packages.txt"
     with open(fname, 'r') as myin:
-        for line in myin:
-            pkgname = line[:-1]
+        lines = [line[:-1] for line in myin]
+    return lines
+
+
+#TODO: detect and handle package names with key:package-name specially
+# they only get installed if the user specifies the key
+def get_wanted_packages(keys):
+    """Read the list of desired packages from my-packages.txt file, return a set."""
+    wanted = set()
+    for line in read_pkgs_file():
+        pkgname = line
+        if ':' in pkgname:
+            parts = pkgname.split(':', 1)
+            if parts[0] in keys:
+                wanted.add(parts[1])
+        else:
             wanted.add(pkgname)
-            if pkgname in DEPENDENCIES:
-                for pkg in DEPENDENCIES[pkgname]:
-                    wanted.add(pkgname)
+        if pkgname in DEPENDENCIES:
+            for pkg in DEPENDENCIES[pkgname]:
+                wanted.add(pkg)
     return wanted
+
+
+def get_optional_keys():
+    keys = set()
+    pkgs = read_pkgs_file()
+    for pkg in pkgs:
+        if ':' in pkg:
+            parts = pkg.split(':')
+            keys.add(parts[0])
+    return keys
 
 
 def install_missing(apm_prog, wanted, installed):
@@ -110,15 +144,21 @@ def report_extra_packages(wanted, installed):
 def main():
     """Driver function."""
     args = get_args()
-    apm = 'apm-beta' if args.beta else 'apm'
-    if platform.system() == 'Windows':
-        apm = os.path.join(os.getenv("LOCALAPPDATA"), r'atom\bin\apm.cmd')
-    installed = get_installed_pkgs(apm)
-    wanted = get_wanted_packages()
-    report_missing_packages(wanted, installed)
-    report_extra_packages(wanted, installed)
-    if args.install:
-        install_missing(apm, wanted, installed)
+    if args.list_keys:
+        print("Optional package groups:")
+        for key in get_optional_keys():
+            print(key)
+    else:
+        apm = 'apm-beta' if args.beta else 'apm'
+        if platform.system() == 'Windows':
+            apm = os.path.join(os.getenv("LOCALAPPDATA"), r'atom\bin\apm.cmd')
+        opt_keys = [key for key in (args.keys.split(';') if args.keys else [])]
+        installed = get_installed_pkgs(apm)
+        wanted = get_wanted_packages(opt_keys)
+        report_missing_packages(wanted, installed)
+        report_extra_packages(wanted, installed)
+        if args.install:
+            install_missing(apm, wanted, installed)
 
 
 if __name__ == '__main__':
