@@ -186,6 +186,7 @@
     paths: [
       "~/Devel/atom/pkg-groups"
       "~/Devel/atom/pkg-groups/node_modules/etch"
+      "~/Devel/atom/atom/src"
     ]
     icon: "atom-icon"
   }
@@ -204,5 +205,20 @@
       "~/Devel/omaha.com"
     ]
     icon: "ion-social-html5"
+  }
+  {
+    title: "Richmond Com"
+    group: "BLOX"
+    paths: [
+      "~/Devel/richmond.com"
+    ]
+  }
+  {
+    title: "Atom Test Grid Layouts"
+    group: "Atom"
+    paths: [
+      "~/Devel/atom/atom-test-grid-layouts"
+    ]
+    icon: "atom-icon"
   }
 ]
