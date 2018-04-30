@@ -18,6 +18,7 @@ import os
 DEPENDENCIES = {
     "linter": {"linter-ui-default"},
     "linter-ui-default": {"intentions", "busy-signal"},
+    "build-powershell": {"terminal-tab-service"}
     # "pythonic-atom": {
     #     "linter", "linter-ui-default", "linter-pycodestyle", "minimap",
     #     "minimap-linter", "MagicPython", "python-tools", "python-yapf",
@@ -65,11 +66,6 @@ def get_installed_pkgs(apm_prog):
         if parts[0]:
             installed.add(parts[0].decode('utf-8'))
 
-    # remove dependencies from list
-    for key in DEPENDENCIES:
-        for pkg in DEPENDENCIES[key]:
-            installed.discard(pkg)
-
     return installed
 
 
@@ -96,9 +92,6 @@ def get_wanted_packages(keys):
                 wanted.add(parts[1])
         else:
             wanted.add(pkgname)
-        if pkgname in DEPENDENCIES:
-            for pkg in DEPENDENCIES[pkgname]:
-                wanted.add(pkg)
     return wanted
 
 
@@ -135,6 +128,11 @@ def report_missing_packages(wanted, installed):
 def report_extra_packages(wanted, installed):
     """List to stdout packages in set `installed` which are not in set `wanted`."""
     extras = installed - wanted
+    # Now, eliminate from extras dependent packages, but only if their prereq is in installed
+    for pkg in installed:
+        if pkg in DEPENDENCIES:
+            for deppkg in DEPENDENCIES[pkg]:
+                extras.discard(deppkg)
     if extras:
         print("\nExtra packages installed locally:")
         for extra in extras:
