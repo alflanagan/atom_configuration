@@ -10,6 +10,10 @@ autoclose-html
 autocomplete-paths
 autocomplete-python
 build
+build-cmake
+build-gradle
+build-make
+build-tsc
 clipboard-plus
 disable-keybindings
 django-templates

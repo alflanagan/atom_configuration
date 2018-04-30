@@ -9,6 +9,10 @@ autoclose-html
 autocomplete-paths
 autocomplete-python
 build
+build-cmake
+build-gradle
+build-powershell
+build-tsc
 clipboard-plus
 disable-keybindings
 django-templates
@@ -25,8 +29,8 @@ home:platformio-ide
 home:platformio-ide-debugger
 home:platformio-ide-terminal
 Hydrogen
-ide-css
 ide-csharp
+ide-css
 ide-flowtype
 ide-html
 ide-json
