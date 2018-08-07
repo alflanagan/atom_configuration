@@ -1,11 +1,13 @@
 advanced-open-file
 atom-beautify
+atom-commander
 atom-ide-debugger-node
 atom-ide-debugger-python
 atom-ide-ui
 atom-keyboard-macros
 atom-notes
 autoclose-html
+autocomplete-clang
 autocomplete-paths
 autocomplete-python
 build
@@ -29,9 +31,11 @@ home:platformio-ide
 home:platformio-ide-debugger
 home:platformio-ide-terminal
 Hydrogen
+ide-cpp
 ide-csharp
 ide-css
 ide-flowtype
+ide-go
 ide-html
 ide-json
 ide-php
@@ -61,6 +65,7 @@ minimap-git-diff
 node-repl
 open-unsupported-files
 project-manager
+pure-syntax
 python-snippets
 python-tools
 python-yapf

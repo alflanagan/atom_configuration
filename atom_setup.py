@@ -79,7 +79,7 @@ def read_pkgs_file():
     return lines
 
 
-#TODO: detect and handle package names with key:package-name specially
+# detect and handle package names with key:package-name specially
 # they only get installed if the user specifies the key
 def get_wanted_packages(keys):
     """Read the list of desired packages from my-packages.txt file, return a set."""
@@ -96,6 +96,7 @@ def get_wanted_packages(keys):
 
 
 def get_optional_keys():
+    """Returns a set of key names from the packages file."""
     keys = set()
     pkgs = read_pkgs_file()
     for pkg in pkgs:
