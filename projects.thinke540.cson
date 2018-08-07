@@ -121,4 +121,13 @@
     ]
     icon: "atom-icon"
   }
+  {
+    title: "Sumobot1"
+    group: "Robot"
+    paths: [
+      "~/Devel/robot/sumobot1"
+      "~/Documents/PlatformIO/Projects/180221-073743-uno"
+    ]
+    icon: "icon-hubot"
+  }
 ]
