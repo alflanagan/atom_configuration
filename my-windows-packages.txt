@@ -27,9 +27,6 @@ flex-tool-bar
 go-plus
 grammar-mode
 home:language-forth
-home:platformio-ide
-home:platformio-ide-debugger
-home:platformio-ide-terminal
 Hydrogen
 ide-cpp
 ide-csharp
