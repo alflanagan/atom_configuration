@@ -7,14 +7,14 @@ atom-ide-ui
 atom-keyboard-macros
 atom-notes
 autoclose-html
-autocomplete-clang
 autocomplete-paths
 autocomplete-python
 build
-build-cmake
 build-gradle
 build-powershell
 build-tsc
+city-lights-syntax
+city-lights-ui
 clipboard-plus
 disable-keybindings
 django-templates
@@ -24,15 +24,17 @@ emmet
 export-html
 file-icons
 flex-tool-bar
-go-plus
 grammar-mode
-home:language-forth
+home: autocomplete-clang
+home: build-cmake
+home: go-plus
+home: ide-cpp
+home: ide-go
+home: language-forth
 Hydrogen
-ide-cpp
 ide-csharp
 ide-css
 ide-flowtype
-ide-go
 ide-html
 ide-json
 ide-php
@@ -40,8 +42,8 @@ ide-powershell
 ide-typescript
 jumpy
 language-babel
-language-generic-config
 language-ini
+language-kotlin
 language-markdown
 language-powershell
 language-svg
