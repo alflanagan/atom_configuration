@@ -3,23 +3,15 @@
     title: "Atom Configuration"
     group: "Atom"
     paths: [
-      "~/Devel/atom/atom_configuration"
+      "C:\\Users\\aflanaga\\Devel\\atom\\atom_configuration"
     ]
     icon: "atom-icon"
-  }
-  {
-    title: "Svgmaps"
-    group: "BH Media"
-    paths: [
-      "~/Devel/svgmaps"
-    ]
-    icon: "icon-tools"
   }
   {
     title: "Atom Language Utl"
     group: "Atom"
     paths: [
-      "~/Devel/atom/atom-language-utl"
+      "C:\\Users\\aflanaga\\Devel\\atom\\atom-language-utl"
     ]
     icon: "atom-icon"
   }
@@ -27,15 +19,7 @@
     title: "Utl Indexer"
     group: "BLOX"
     paths: [
-      "~/Devel/utl_indexer"
-    ]
-    icon: "mdi mdi-magnet"
-  }
-  {
-    title: "Townnews Reader"
-    group: "BLOX"
-    paths: [
-      "~/Devel/townnews_reader"
+        "C:\\Users\\aflanaga\\Devel\\utl_indexer"
     ]
     icon: "mdi mdi-magnet"
   }
@@ -43,7 +27,7 @@
     title: "Shared Libraries"
     group: "BH Media"
     paths: [
-      "~/Devel/shared_libraries"
+        "C:\\Users\\aflanaga\\Devel\\shared_libraries"
     ]
     icon: "mdi mdi-magnet"
   }
@@ -51,80 +35,15 @@
     title: "Utl Lookup"
     group: "BLOX"
     paths: [
-      "~/Devel/utl_lookup"
+        "C:\\Users\\aflanaga\\Devel\\utl_lookup"
     ]
     icon: "mdi mdi-magnet"
-  }
-  {
-    title: "Gmail Intfc"
-    group: "Mail"
-    paths: [
-      "~/Devel/personal/mail-electron-intfc"
-    ]
-    icon: "icon-mail-read"
-  }
-  {
-    title: "Hacker Web"
-    group: "HackRVA"
-    paths: [
-      "~/Devel/personal/hackrva/hacker-web"
-    ]
-    icon: "ion-social-html5"
-  }
-  {
-    title: "Gmail Web Svcs"
-    group: "Mail"
-    paths: [
-      "~/Devel/personal/mail-web-srvcs"
-    ]
-    icon: "icon-mail-read"
-  }
-  {
-    title: "Badge2017"
-    group: "HackRVA"
-    paths: [
-      "~/Devel/personal/hackrva/Harmony-Badge-2017/firmware"
-      "~/Devel/personal/hackrva/microchip/harmony/v1_09"
-    ]
-    icon: "mdi mdi-radioactive"
-  }
-  {
-    title: "The Jobs Network Widgets"
-    group: "BH Media"
-    paths: [
-      "~/Devel/richmond.com/jobs.thejobnetwork.com"
-    ]
-    icon: "icon-package"
-  }
-  {
-    title: "Symbol Quick Pane"
-    group: "Atom"
-    paths: [
-      "~/Devel/atom/atom-symbol-quick-pane"
-    ]
-    icon: "atom-icon"
-  }
-  {
-    title: "Site Setup"
-    group: "BH Media"
-    paths: [
-      "~/Devel/site_setup"
-    ]
-    icon: "mdi mdi-beta"
-  }
-  {
-    title: "Nebhssports"
-    group: "BH Media"
-    paths: [
-      "~/Devel/nebhssports"
-    ]
-    icon: "devicon-python-plain"
   }
   {
     title: "Node Find"
     group: "Node"
     paths: [
-      "~/Devel/personal/node_find"
+        "C:\\Users\\aflanaga\\Devel\\node_find"
     ]
     icon: "icon-search"
   }
@@ -132,93 +51,8 @@
     title: "Api Helper"
     group: "BH Media"
     paths: [
-      "~/Devel/realmatch/api_helper"
-      "~/Devel/realmatch/realmatch_code/docs"
+        "C:\\Users\\aflanaga\\Devel\\api_helper"
     ]
     icon: "devicon-php-plain"
-    php:
-      enabled: true
-      php_integrator:
-        enabled: true
-        phpVersion: 7.1
-        excludedPaths: []
-        fileExtensions: [
-          "php"
-        ]
-  }
-  {
-    title: "Realmatch Code"
-    group: "BH Media"
-    paths: [
-      "~/Devel/realmatch/realmatch_code"
-      "~/Devel/realmatch/api_helper"
-    ]
-    icon: "devicon-php-plain"
-    php:
-      enabled: true
-      php_integrator:
-        enabled: true
-        phpVersion: 7.1
-        excludedPaths: []
-        fileExtensions: [
-          "php"
-        ]
-  }
-  {
-    title: "Www"
-    group: "BH Media"
-    paths: [
-      "~/Devel/www"
-    ]
-  }
-  {
-    title: "BadgeForth"
-    group: "HackRVA"
-    paths: [
-      "~/Devel/personal/hackrva/BadgeForth/firmware"
-      "~/Devel/personal/hackrva/microchip/harmony/v2_03b"
-    ]
-    icon: "mdi mdi-radioactive"
-  }
-  {
-    title: "Atom Pkg Groups"
-    group: "Atom"
-    paths: [
-      "~/Devel/atom/pkg-groups"
-      "~/Devel/atom/pkg-groups/node_modules/etch"
-      "~/Devel/atom/atom/src"
-    ]
-    icon: "atom-icon"
-  }
-  {
-    title: "Bootstrap4 Experiments"
-    group: "BH Media"
-    paths: [
-      "~/Devel/bootstrap4"
-      "~/Devel/bootstrap"
-    ]
-  }
-  {
-    title: "omaha.com Website"
-    group: "BH Media"
-    paths: [
-      "~/Devel/omaha.com"
-    ]
-    icon: "ion-social-html5"
-  }
-  {
-    title: "Richmond Com"
-    group: "BLOX"
-    paths: [
-      "~/Devel/richmond.com"
-    ]
-  }
-  {
-    title: "Atom Test Grid Layouts"
-    group: "Atom"
-    paths: [
-      "~/Devel/atom/atom-test-grid-layouts"
-    ]
-    icon: "atom-icon"
   }
 ]
