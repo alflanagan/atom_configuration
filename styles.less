@@ -1,14 +1,18 @@
+// a couple of settings to improve font appearance
 * {
   -webkit-font-smoothing: antialiased;
   -webkit-font-feature-settings: "liga" on, "calt" on;
+  font-feature-settings: "liga" on, "calt" on;
 }
 
 atom-text-editor {
   font-family: 'Office Code Pro', 'Monoid', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
   font-size: 14px;
   text-rendering: optimizeLegibility;
+  // turning off ligatures on current line so user sees actual characters
   .cursor-line {
     -webkit-font-feature-settings: "liga" off, "calt" off;
+    font-feature-settings: "liga" off, "calt" off;
   }
 }
 
@@ -21,6 +25,7 @@ atom-text-editor {
 //really necessary, trying it out.
 div.find-and-replace atom-text-editor .line {
   -webkit-font-feature-settings: "liga" off, "calt" off;
+  font-feature-settings: "liga" off, "calt" off;
 }
 
 //smoother scrolling for mouse wheel
