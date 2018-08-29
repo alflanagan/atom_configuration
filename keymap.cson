@@ -41,6 +41,8 @@
   'ctrl-p': 'core:move-up'
   #TODO: set new key for find-and-replace:use-selection-as-find-pattern
   'ctrl-e': 'editor:move-to-end-of-screen-line'
+  # ctrl-alt-b got taken by atom-ide-ui build system
+  'ctrl-alt-u':	'atom-beautify:beautify-editor'
 
 'atom-text-editor:not([mini])':
   'ctrl-alt-w': 'emmet:wrap-with-abbreviation'
