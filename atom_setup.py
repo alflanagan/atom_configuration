@@ -67,6 +67,7 @@ def get_installed_pkgs(apm_prog):
 
 
 def read_pkgs_file():
+    """Select a packages file based on current os and return contents."""
     lines = []
     fname = "my-packages.txt"
     if platform.system() == "Windows":
@@ -93,7 +94,7 @@ def get_wanted_packages(keys):
 
 
 def get_optional_keys():
-    """Returns a set of key names from the packages file."""
+    """Return a set of key names from the packages file."""
     keys = set()
     pkgs = read_pkgs_file()
     for pkg in pkgs:
