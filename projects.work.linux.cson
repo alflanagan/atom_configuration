@@ -1,19 +1,19 @@
 [
   {
-    title: "theeagle_archives"
-    group: "TN exports"
-    paths: [
-      "~/Devel/townnews_imports/theeagle_archives"
-    ]
-    icon: "icon-squirrel"
-  }
-  {
     title: "atom_configuration"
     group: "personal"
     paths: [
-      "~/Devel/atom_configuration"
+      "~/Devel/atom/atom_configuration"
     ]
     icon: "icon-settings"
+  }
+  {
+    title: "Townnews Release Notes"
+    group: "Townnews"
+    paths: [
+      "~/Devel/townnews_notes"
+    ]
+    icon: "graphic/blox_log_plain.svg"
   }
   {
     title: "shared_libraries"
@@ -28,13 +28,6 @@
     group: "side-projects"
     paths: [
       "~/bin"
-    ]
-  }
-  {
-    title: "Downloads"
-    group: "personal"
-    paths: [
-      "~/Downloads"
     ]
   }
   {
@@ -57,7 +50,7 @@
     title: "node_find"
     group: "personal"
     paths: [
-      "~/Devel/node_find"
+      "~/Devel/personal/node_find"
     ]
   }
 ]
