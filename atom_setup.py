@@ -18,12 +18,9 @@ import os
 DEPENDENCIES = {
     "linter": {"linter-ui-default"},
     "linter-ui-default": {"intentions", "busy-signal"},
-    "build-powershell": {"terminal-tab-service"}
-    # "pythonic-atom": {
-    #     "linter", "linter-ui-default", "linter-pycodestyle", "minimap",
-    #     "minimap-linter", "MagicPython", "python-tools", "python-yapf",
-    #     "autocomplete-python", "hyperclick", "script", "atom-isort"
-    # }
+    "build-powershell": {"terminal-tab-service"},
+    "ide-rust": {"language-rust", "atom-ide-ui"},
+    "ide-powershell": {"language-powershell", "terminal-tab-service", "atom-ide-ui"},
 }
 
 

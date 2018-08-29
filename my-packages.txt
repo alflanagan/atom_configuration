@@ -1,6 +1,7 @@
 advanced-open-file
 atom-beautify
 atom-commander
+atom-html-preview
 atom-ide-debugger-node
 atom-ide-debugger-python
 atom-ide-ui
@@ -30,22 +31,24 @@ home: build-cmake
 home: build-make
 home: go-plus
 home: ide-cpp
+home: ide-go
 home: language-forth
-home:ide-go
-home:linter-gcc
+home: linter-gcc
 Hydrogen
 ide-css
 ide-flowtype
 ide-html
 ide-json
 ide-php
+ide-powershell
+ide-python
+ide-rust
 ide-typescript
 jumpy
 language-babel
 language-ini
 language-kotlin
 language-markdown
-language-powershell
 language-svg
 last-cursor-position
 linter
