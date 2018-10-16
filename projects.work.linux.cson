@@ -13,7 +13,16 @@
     paths: [
       "~/Devel/townnews_notes"
     ]
-    icon: "graphic/blox_log_plain.svg"
+    icon: "graphic/blox_logo_plain.svg"
+  }
+  {
+    title: "React Native Test"
+    group: "mobile"
+    paths: [
+      "~/Devel/TestReactNative"
+    ]
+    color: "purple"
+    icon: "react-icon"
   }
   {
     title: "shared_libraries"
@@ -50,7 +59,17 @@
     title: "node_find"
     group: "personal"
     paths: [
-      "~/Devel/personal/node_find"
+      "~/Devel/node_find"
     ]
+    icon: "icon-search"
+  }
+  {
+    title: "React Native Tutorial"
+    group: "mobile"
+    paths: [
+      "~/Devel/ReactNativeTutorial"
+    ]
+    color: "purple"
+    icon: "react-icon"
   }
 ]
